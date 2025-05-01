@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import Principal from "@/public/img/administrative/principal.png";
-import Chancellor from "@/public/img/administrative/chancellor.jpg";
+import Chancellor from "@/public/img/administrative/new_chancellor.png";
 import ProChancellor from "@/public/img/administrative/pro_chancellor.jpg";
 import ViceChancellor from "@/public/img/administrative/vice_chancellor.jpg";
 import Registrar from "@/public/img/administrative/registrar.jpg";
@@ -12,7 +12,7 @@ const data = {
     {
       id: 2,
       src: Chancellor,
-      name: "Shri. Arif Muhammed Khan",
+      name: "Shri Rajendra Vishwanath Arlekar",
       position: "Chancellor",
       org: "The Hon'ble Governor of Kerala",
     },
