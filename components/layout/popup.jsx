@@ -42,7 +42,7 @@ const Popup = () => {
         <div>
             <div
                 id="overlay"
-                className="w-screen h-screen bg-[rgba(0,0,0,0.5)] fixed top-0 left-0 flex items-center justify-center z-[9999] transition-opacity duration-300 ease-in-out opacity-0 pointer-events-none">
+                className="w-screen h-screen bg-[rgba(0,0,0,0.8)] fixed top-0 left-0 flex items-center justify-center z-[9999] transition-opacity duration-300 ease-in-out opacity-0 pointer-events-none">
                 <div
                     id="popupBox"
                     className="w-[70vh] h-[40vh] text-white bg-black flex items-center justify-center relative opacity-0 scale-95 transition-all duration-300 ease-out">
