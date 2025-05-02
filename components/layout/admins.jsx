@@ -64,7 +64,7 @@ const AdministrationPanel = () => {
               height={250}
             />
             <div className="">
-              <h3 className="text-xl md:text-2xl font-semibold pr-[30px]">
+              <h3 className="text-[17px] md:text-2xl font-semibold pr-[30px]">
                 {member.name}
               </h3>
               <p className="text-gray-500">{member.position}</p>

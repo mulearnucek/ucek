@@ -54,6 +54,7 @@ const Popup = () => {
                     <h1 className="p-[15px]">
                         Admission Open (sample message)
                     </h1>
+                    {/*<img src="https://static.vecteezy.com/system/resources/previews/023/292/657/non_2x/2025-admission-open-banner-abstract-school-college-coaching-clipart-vector.jpg" alt="Admission Image" className='rounded-xl shadow-black shadow-md'/>*/}
                 </div>
             </div>
         </div>
