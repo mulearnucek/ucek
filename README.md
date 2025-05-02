@@ -5,6 +5,8 @@ This is the repo for the official site of University College of Engineering, Kar
   <b>Available at https://uck.ac.in</b>
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f7f6990-ca01-4811-ae4f-94de2178c738/deploy-status)](https://app.netlify.com/sites/ucek/deploys)
+
 ## Previews
 ![image](https://github.com/user-attachments/assets/9163f47b-955e-44a2-9046-93fb2284f9d3)
 ![image](https://github.com/user-attachments/assets/803c505f-bd8f-43ac-a17f-f01117984ffa)
