@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
+import Admission from '@/public/img/new-admission.jpg';
+import Image from 'next/image';
 
 const Popup = () => {
     useEffect(() => {
@@ -42,19 +44,37 @@ const Popup = () => {
         <div>
             <div
                 id="overlay"
-                className="w-screen h-screen bg-[rgba(0,0,0,0.8)] fixed top-0 left-0 flex items-center justify-center z-[9999] transition-opacity duration-300 ease-in-out opacity-0 pointer-events-none">
+                className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[9999] transition-opacity duration-300 ease-in-out opacity-0 pointer-events-none">
                 <div
                     id="popupBox"
-                    className="w-[80%] max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl text-white bg-black p-6 flex items-center justify-center relative opacity-0 scale-95 transition-all duration-300 ease-out rounded-xl">
-                    <button
-                        id="closeBtn"
-                        className="absolute top-3 right-3 z-50 h-8 w-8 flex justify-center text-white bg-gray-500 bg-opacity-40 rounded-full text-xl hover:scale-110 hover:bg-opacity-90 transition-transform duration-200 ease-in-out focus:outline-none select-none">
-                        &times;
-                    </button>
-                    <h1 className="p-[15px]">
-                        Admission Open (sample message)
-                    </h1>
-                    {/*<img src="https://static.vecteezy.com/system/resources/previews/023/292/657/non_2x/2025-admission-open-banner-abstract-school-college-coaching-clipart-vector.jpg" alt="Admission Image" className='rounded-xl shadow-black shadow-md'/>*/}
+                    className="relative opacity-0 scale-90 transition-all duration-300 ease-out"
+                    style={{
+                        width: '90%', // Mobile width (unchanged)
+                        maxWidth: '600px', // Limits width on laptop
+                        height: 'auto',
+                        maxHeight: '100vh'
+                    }}>
+                    
+                    {/* Image container with proper aspect ratio */}
+                    <div className="relative w-full" style={{
+                        paddingBottom: '125%' // Adjust this to match your image's aspect ratio
+                    }}>
+                        <Image
+                            src={Admission}
+                            alt="NRI Admissions 2025 Open"
+                            fill
+                            className="object-contain rounded-xl"
+                            sizes="(max-width: 768px) 80vw, 600px"
+                            priority
+                        />
+                        
+                        {/* Close button */}
+                        <button
+                            id="closeBtn"
+                            className="absolute top-3 right-3 z-50 h-9 w-9 flex justify-center text-white bg-gray-700 bg-opacity-70 rounded-full text-2xl hover:bg-opacity-100 transition-all duration-200">
+                            &times;
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
