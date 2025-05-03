@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import Principal from "@/public/img/administrative/principal.png";
-import Chancellor from "@/public/img/administrative/new_chancellor.png";
+import Chancellor from "@/public/img/administrative/chancellor.jpg";
 import ProChancellor from "@/public/img/administrative/pro_chancellor.jpg";
 import ViceChancellor from "@/public/img/administrative/vice_chancellor.jpg";
 import Registrar from "@/public/img/administrative/registrar.jpg";
@@ -12,7 +12,7 @@ const data = {
     {
       id: 2,
       src: Chancellor,
-      name: "Shri Rajendra Vishwanath Arlekar",
+      name: "Shri. Rajendra Vishwanath Arlekar",
       position: "Chancellor",
       org: "The Hon'ble Governor of Kerala",
     },
@@ -59,12 +59,12 @@ const AdministrationPanel = () => {
             <Image
               src={member.src}
               alt={`Member ${member.id}`}
-              className="rounded-lg object-cover w-[250px] h-[250px] prevent-select"
+              className="rounded-lg object-cover w-[250px] h-[250px] prevent-select brightness-[.90]"
               width={250}
               height={250}
             />
             <div className="">
-              <h3 className="text-xl md:text-2xl font-semibold pr-[30px]">
+              <h3 className="text-[17px] md:text-[17px] font-semibold">
                 {member.name}
               </h3>
               <p className="text-gray-500">{member.position}</p>

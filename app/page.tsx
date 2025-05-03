@@ -10,19 +10,21 @@ import MoreUcek from '@/components/layout/ucekmore'
 import Footer from '@/components/layout/footer'
 import Link from "next/link";
 import HeroSlider from "@/components/layout/landing";
+import Popup from '@/components/layout/popup';
 
 export default function Home() {
   return (
-   <>
-    <Topnav /> 
-    <Nav/>
-    <HeroSlider/>
-    <Quick/>
-    <Whyucek/>
-    <NewsEvents/>
-    <AdministrationPanel/>
-    <MoreUcek/>
-    <Footer/>
-   </>
+    <>
+      <Popup />
+      <Topnav />
+      <Nav />
+      <HeroSlider />
+      <Quick />
+      <Whyucek />
+      <NewsEvents />
+      <AdministrationPanel />
+      <MoreUcek />
+      <Footer />
+    </>
   );
 }
