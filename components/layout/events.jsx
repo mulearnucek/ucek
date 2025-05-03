@@ -88,7 +88,7 @@ const NewsEvents = () => {
                     <span className="text-xs font-medium text-gray-600">{item[6]}</span>
                   </div>
                   <a
-                    href={`https://eventsatucek.vercel.app/e/${item[1]}`}
+                    href={`https://events.uck.ac.in/`}
                     className="text-blue-500 hover:text-blue-700 transition-colors"
                     aria-label="Event details"
                   >
@@ -183,7 +183,7 @@ const NewsEvents = () => {
                         {item[3]}
                       </h3>
                       <a
-                        href={`https://eventsatucek.vercel.app/e/${item[1]}`}
+                        href={`https://events.uck.ac.in/`}
                         className="text-blue-500 hover:text-blue-700 transition-colors flex-shrink-0"
                         aria-label="Event details"
                       >
