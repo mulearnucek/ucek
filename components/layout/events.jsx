@@ -18,13 +18,13 @@ const NewsEvents = () => {
       try {
         const upcoming = await getUpcomingEvents();
         setUpcomingData(Array.isArray(upcoming) ? upcoming : []);
-        
+
         // Only fetch recent events if there are no upcoming events
         if (upcoming.length === 0) {
           const recent = await getRecentEvents();
           setRecentData(Array.isArray(recent) ? recent : []);
         }
-        
+
         setLoading(false);
       } catch (error) {
         console.error("An error occurred:", error);
@@ -73,7 +73,7 @@ const NewsEvents = () => {
             {displayData.map((item, index) => (
               <div
                 key={index}
-                className="w-[280px] bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300"
+                className="w-[280px] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300"
               >
                 {/* Header */}
                 <div className="flex justify-between items-center p-3 border-b border-gray-100">
@@ -103,7 +103,11 @@ const NewsEvents = () => {
                     alt="Event Poster"
                     fill
                     className="object-cover"
-                    referrerPolicy="no-referrer"
+                    priority={index < 3} // Only prioritize first few images
+                    loading={index > 2 ? "lazy" : "eager"}
+                    quality={75} // Reduce image quality slightly
+                    placeholder="blur"
+                    blurDataURL="data:image/png;base64,..." // Add a small base64 placeholder
                   />
                 </div>
 
@@ -138,7 +142,7 @@ const NewsEvents = () => {
               {displayData.map((item, index) => (
                 <div
                   key={index}
-                  className="w-[300px] min-w-[300px] h-[330px] mb-2 mx-4 bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-300"
+                  className="w-[300px] min-w-[300px] h-[330px] mb-2 mx-4 bg-white rounded-lg shadow-xl overflow-hidden border border-gray-250 hover:shadow-2xl transition-all duration-300"
                 >
                   {/* Image Header */}
                   <div className="relative h-40 w-full">
@@ -147,15 +151,18 @@ const NewsEvents = () => {
                       alt="Event Poster"
                       fill
                       className="object-cover"
-                      referrerPolicy="no-referrer"
+                      priority={index < 3} // Only prioritize first few images
+                      loading={index > 2 ? "lazy" : "eager"}
+                      quality={75} // Reduce image quality slightly
+                      placeholder="blur"
+                      blurDataURL="data:image/png;base64,..." // Add a small base64 placeholder
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
                       <div className="flex justify-between items-center">
-                        <span className={`px-2 py-1 rounded-full text-[10px] font-bold ${
-                          item[8]?.toLowerCase() === 'online'
-                            ? 'bg-blue-500 text-white'
-                            : 'bg-green-500 text-white'
-                        }`}>
+                        <span className={`px-2 py-1 rounded-full text-[10px] font-bold ${item[8]?.toLowerCase() === 'online'
+                          ? 'bg-blue-500 text-white'
+                          : 'bg-green-500 text-white'
+                          }`}>
                           {item[8] || 'Event'}
                         </span>
                         <Image
@@ -163,7 +170,7 @@ const NewsEvents = () => {
                           width={28}
                           height={28}
                           alt="Club Icon"
-                          className="rounded-full border-2 border-white"
+                          className={`rounded-full border-2 border-white ${item[6] === 'IEEE - UCEK' || item[6] === 'Legacy IEDC - UCEK' ? 'bg-white border-gray': 'bg-none'}`}
                         />
                       </div>
                     </div>

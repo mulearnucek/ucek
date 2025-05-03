@@ -57,7 +57,7 @@ const Popup = () => {
                     <div className="relative w-full" style={{
                         paddingBottom: '125%'
                     }}>
-                        <a href="https://uck.ac.in/admissions/btech">
+                        <a href="/admissions/btech">
                         <Image
                             src={Admission}
                             alt="NRI Admissions 2025 Open"

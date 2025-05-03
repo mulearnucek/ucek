@@ -25,29 +25,6 @@ export function getData(url:string): Promise<string[][]> {
 });
 }
 
-export function getImgLink(link: string) {
-  return (
-    "https://drive.google.com/uc?export=download&id=" +
-    link.replace("https://drive.google.com/open?id=", "")
-  );
-}
-
-export function getCarouselImages(n="10"): Promise<string[][]> {
-  const url = "https://docs.google.com/spreadsheets/d/"
-              + CONTENT_SHEET_ID
-              + "/gviz/tq?tqx=out:csv&sheet=carousel&tq=" 
-              + encodeURIComponent("select B, C, D limit "+n);
-  return getData(url)
-}
-
-export function getAnnouncements(): Promise<string[][]> {
-  const url = "https://docs.google.com/spreadsheets/d/"
-              + CONTENT_SHEET_ID
-              + "/gviz/tq?tqx=out:csv&sheet=announcements&tq=" 
-              + encodeURIComponent("select *");
-  return getData(url)
-}
-
 export async function getUpcomingEvents(limit = 20): Promise<string[][]> {
   const url = `https://docs.google.com/spreadsheets/d/${EVENT_SHEET_ID}/export?format=csv`;
   
@@ -115,4 +92,28 @@ export async function getRecentEvents(limit = 20): Promise<string[][]> {
     console.error("Fetch failed:", error);
     return [];
   }
+}
+
+
+export function getImgLink(link: string) {
+  return (
+    "https://drive.google.com/uc?export=download&id=" +
+    link.replace("https://drive.google.com/open?id=", "")
+  );
+}
+
+export function getCarouselImages(n="10"): Promise<string[][]> {
+  const url = "https://docs.google.com/spreadsheets/d/"
+              + CONTENT_SHEET_ID
+              + "/gviz/tq?tqx=out:csv&sheet=carousel&tq=" 
+              + encodeURIComponent("select B, C, D limit "+n);
+  return getData(url)
+}
+
+export function getAnnouncements(): Promise<string[][]> {
+  const url = "https://docs.google.com/spreadsheets/d/"
+              + CONTENT_SHEET_ID
+              + "/gviz/tq?tqx=out:csv&sheet=announcements&tq=" 
+              + encodeURIComponent("select *");
+  return getData(url)
 }
