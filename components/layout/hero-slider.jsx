@@ -78,10 +78,10 @@ export function HeroSlider() {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.1)]">
                 <div className="space-y-2 text-center text-primary-foreground">
-                  <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
+                  <h2 className="text-[9vw] font-bold tracking-tighter sm:text-5xl md:text-5xl text-white">
                     {"University College of Engineering"}
                   </h2>
-                  <p className="text-lg md:text-xl text-white">Kariavattom</p>
+                  <p className="text-[2.3vh] md:text-xl text-white">Kariavattom</p>
                 </div>
               </div>
             </div>
@@ -98,10 +98,10 @@ export function HeroSlider() {
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.1)]">
                   <div className="space-y-2 text-center text-primary-foreground">
-                    <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
+                    <h2 className="text-[6vw] mx-[6px] font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
                       {image[1]}
                     </h2>
-                    <p className="text-lg md:text-xl text-white">{image[2]}</p>
+                    <p className="text-[4.5vw] mx-[5px] md:text-xl text-white">{image[2]}</p>
                   </div>
                 </div>
               </div>

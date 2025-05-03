@@ -25,8 +25,7 @@ export function resolveClubIcon(clb: string): any {
     "FOSS - UCEK": FOSSLogo,
     "NSS - UCEK": NSSLogo,
     "Renvnza '24" : RENVNZA,
-    "Meluhans Dance Club" : MELUHANS,
-    "Arc" : ARC
+    "Meluhans Dance Club" : MELUHANS
 
   }[clb];
 }
