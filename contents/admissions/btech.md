@@ -35,7 +35,8 @@ To express interest in future vacancies for B.Tech admission under the NRI quota
 
 [Registration Form for B.Tech degree courses under NRI quota.](https://docs.google.com/forms/d/e/1FAIpQLSdrUTSeeNzymiQ2yyiUoYLxSdUUl_SLgU3H7dTWwbPRant1WQ/viewform)
 
-[Download Application Form for admission to B.Tech degree courses under NRI quota.](/docs/nriapplication.pdf)
+[Download Application Form for admission to B.Tech degree courses under NRI quota.](/docs/nriadm.pdf)
+
 
 ## Closing Ranks
 Based on KEAM 2023 - Allotment Phase 3.
