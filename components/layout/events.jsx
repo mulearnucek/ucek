@@ -138,7 +138,7 @@ const NewsEvents = () => {
               {displayData.map((item, index) => (
                 <div
                   key={index}
-                  className="w-[300px] min-w-[300px] mx-4 bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-300"
+                  className="w-[300px] min-w-[300px] h-[330px] mb-2 mx-4 bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-300"
                 >
                   {/* Image Header */}
                   <div className="relative h-40 w-full">
@@ -172,7 +172,7 @@ const NewsEvents = () => {
                   {/* Content */}
                   <div className="p-3">
                     <div className="flex justify-between items-start mb-2">
-                      <h3 className="text-lg font-bold text-gray-800 line-clamp-2 pr-2">
+                      <h3 className="text-md font-bold text-gray-800 line-clamp-2 pr-2">
                         {item[3]}
                       </h3>
                       <a

@@ -28,7 +28,7 @@ const Popup = () => {
         hasCookie ? hidePopup() : showPopup();
 
         const handleClose = () => {
-            document.cookie = "uimonkCookie=uimonk; max-age=" + 60 * 60 * 24;
+            document.cookie = "uimonkCookie=uimonk; max-age=" + 60 * 30;
             if (document.cookie.includes('uimonkCookie=uimonk')) {
                 hidePopup();
             } else {
@@ -49,16 +49,15 @@ const Popup = () => {
                     id="popupBox"
                     className="relative opacity-0 scale-90 transition-all duration-300 ease-out"
                     style={{
-                        width: '90%', // Mobile width (unchanged)
-                        maxWidth: '600px', // Limits width on laptop
+                        width: '90%',
+                        maxWidth: '600px',
                         height: 'auto',
                         maxHeight: '100vh'
                     }}>
-                    
-                    {/* Image container with proper aspect ratio */}
                     <div className="relative w-full" style={{
-                        paddingBottom: '125%' // Adjust this to match your image's aspect ratio
+                        paddingBottom: '125%'
                     }}>
+                        <a href="https://uck.ac.in/admissions/btech">
                         <Image
                             src={Admission}
                             alt="NRI Admissions 2025 Open"
@@ -67,8 +66,7 @@ const Popup = () => {
                             sizes="(max-width: 768px) 80vw, 600px"
                             priority
                         />
-                        
-                        {/* Close button */}
+                        </a>
                         <button
                             id="closeBtn"
                             className="absolute top-3 right-3 z-50 h-9 w-9 flex justify-center text-white bg-gray-700 bg-opacity-70 rounded-full text-2xl hover:bg-opacity-100 transition-all duration-200">
