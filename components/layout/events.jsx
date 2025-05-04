@@ -7,6 +7,10 @@ import { CalendarDays, Clock, SquareArrowOutUpRight } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 import Image from "next/image";
 import { resolveClubIcon } from "@/lib/utils";
+import { color } from "framer-motion";
+import { useQuery } from '@tanstack/react-query';
+
+
 
 const NewsEvents = () => {
   const [upcomingData, setUpcomingData] = useState([]);
@@ -73,7 +77,7 @@ const NewsEvents = () => {
             {displayData.map((item, index) => (
               <div
                 key={index}
-                className="w-[280px] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow duration-300"
+                className="w-[280px] bg-white rounded-lg shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-shadow duration-300"
               >
                 {/* Header */}
                 <div className="flex justify-between items-center p-3 border-b border-gray-100">
@@ -170,7 +174,7 @@ const NewsEvents = () => {
                           width={28}
                           height={28}
                           alt="Club Icon"
-                          className={`rounded-full border-2 border-white ${item[6] === 'IEEE - UCEK' || item[6] === 'Legacy IEDC - UCEK' ? 'bg-white border-gray': 'bg-none'}`}
+                          className={`rounded-full border-2 border-white ${item[6] === 'IEEE SB UCEK' || item[6] === 'Legacy IEDC - UCEK' ? 'bg-white border-gray' : 'bg-none'}  ${item[6] === 'IEEE RAS SBC UCEK, IEEE SB UCEK' ? 'invert border-black bg-black' : 'invert-0'}`}
                         />
                       </div>
                     </div>
@@ -198,7 +202,7 @@ const NewsEvents = () => {
                     <div className="flex flex-col gap-1 pt-2 border-t border-gray-100">
                       <div className="flex items-center text-gray-700 text-xs">
                         <CalendarDays size={14} className="mr-1.5 text-gray-500" />
-                        <span>{moment(item[7], "DD/MM/YYYY HH:mm:ss")?.format("MMM Do")}</span>
+                        <span>{moment(item[7], "DD/MM/YYYY HH:mm:ss")?.format("MMM Do YYYY")}</span>
                       </div>
                       <div className="flex items-center text-gray-700 text-xs">
                         <Clock size={14} className="mr-1.5 text-gray-500" />
