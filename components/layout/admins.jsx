@@ -49,7 +49,7 @@ const data = {
 
 const AdministrationPanel = () => {
   return (
-    <div className="py-10 bg-white">
+    <div className="pt-4 bg-white">
       <h2 className="text-2xl md:text-[2.6rem] ml-4 md:ml-20 font-bold mb-6 flex items-center">
         <span className="w-2 h-6 bg-blue-500 mr-2"></span> Administration Panel
       </h2>

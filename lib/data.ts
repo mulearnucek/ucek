@@ -69,7 +69,7 @@ export async function getRecentEvents(limit = 20): Promise<string[][]> {
     return rawData.filter(row => {
       try {
         const dateStr = row[7];
-        const isPublished = row[11] === "No";
+        const isPublished = row[11] === "Yes";
         
         if (!dateStr || !isPublished) return false;
         
