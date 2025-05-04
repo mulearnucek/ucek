@@ -13,7 +13,7 @@ This is the repo for the official site of University College of Engineering, Kar
 
 
 ## Development
-
+Hi sukalle
 Stacks Used: Next.js, Tailwind
 
 First, run the development server:
