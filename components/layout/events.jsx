@@ -51,7 +51,7 @@ const NewsEvents = () => {
   }
 
   return (
-    <div className="py-8 bg-white">
+    <div className="py-2 bg-white">
       {/* Show heading only when not loading and there's data */}
       {!loading && displayData.length > 0 && (
         <h2 className="text-xl md:text-2xl ml-4 md:ml-16 font-bold mb-4 flex items-center">
@@ -142,7 +142,7 @@ const NewsEvents = () => {
               {displayData.map((item, index) => (
                 <div
                   key={index}
-                  className="w-[300px] min-w-[300px] h-[330px] mb-2 mx-4 bg-white rounded-lg shadow-xl overflow-hidden border border-gray-250 hover:shadow-2xl transition-all duration-300"
+                  className="w-[300px] min-w-[300px] h-[330px] mt-3 mb-10 mx-4 bg-white rounded-lg shadow-xl overflow-hidden border border-gray-250 hover:shadow-2xl transition-all duration-300"
                 >
                   {/* Image Header */}
                   <div className="relative h-40 w-full">

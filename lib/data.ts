@@ -3,8 +3,8 @@ import Papa from "papaparse";
 import moment from "moment";
 
 export const CONTENT_SHEET_ID = "1oTIT-gv8BENbkwrlaYaXg6dEjSndyT2vDWKZnAJO39g"
-/*export const EVENT_SHEET_ID = "1JF8JCd01dGp1s3iFiriOUHZxlMro63vCAf5Qsm7RNEE"*/
-export const EVENT_SHEET_ID = "1E5o-2t50wDfNNN-qwy6Pk2ZLcFzlF8fbQbVMFBkzAbw"
+export const EVENT_SHEET_ID = "1JF8JCd01dGp1s3iFiriOUHZxlMro63vCAf5Qsm7RNEE"
+// export const EVENT_SHEET_ID = "1E5o-2t50wDfNNN-qwy6Pk2ZLcFzlF8fbQbVMFBkzAbw"
 export const FACULTY_SHEET_ID = "1xz8r0PBP5Z3mdH2VC7oSuumJ5inh0ZIvGANrcPn5Z_E"
 
 
@@ -69,7 +69,7 @@ export async function getRecentEvents(limit = 20): Promise<string[][]> {
     return rawData.filter(row => {
       try {
         const dateStr = row[7];
-        const isPublished = row[11] === "No";
+        const isPublished = row[11] === "Yes";
         
         if (!dateStr || !isPublished) return false;
         
