@@ -26,109 +26,33 @@ export function getData(url: string): Promise<string[][]> {
   });
 }
 
-// Add caching
-const eventCache = {
-  data: null as string[][] | null,
-  lastFetch: 0,
-  cacheDuration: 15 * 60 * 1000 // 15 minutes
-};
 
-export async function getUpcomingEvents(limit = 20): Promise<string[][]> {
-  // Return cached data if available
-  if (eventCache.data && Date.now() - eventCache.lastFetch < eventCache.cacheDuration) {
-    return eventCache.data;
-  }
 
-  const url = `https://docs.google.com/spreadsheets/d/${EVENT_SHEET_ID}/export?format=csv&cache=${Date.now()}`;
-
-  try {
-    const rawData = await getData(url);
-    const filteredData = rawData.filter(row => {
-      try {
-        const dateStr = row[7];
-        const isPublished = row[11] === "Yes";
-
-        if (!dateStr || !isPublished) return false;
-
-        const date = moment(dateStr, [
-          "DD/MM/YYYY HH:mm:ss",
-          "MM/DD/YYYY HH:mm:ss"
-        ]);
-
-        const isValid = date.isValid() && date.isAfter(moment());
-        if (!isValid) console.warn("Invalid date:", dateStr);
-
-        return isValid;
-      } catch (e) {
-        console.warn("Error parsing row:", row, e);
-        return false;
-      }
-    });
-
-    // Update cache
-    eventCache.data = filteredData;
-    eventCache.lastFetch = Date.now();
-
-    return filteredData;
-  } catch (error) {
-    return [];
-  }
+// Get Upcoming Events
+export function getUpcomingEvents(n = "20"): Promise<string[][]> {
+  const url = "https://docs.google.com/spreadsheets/d/"
+    + EVENT_SHEET_ID
+    + "/gviz/tq?tqx=out:csv&sheet=s1&tq="
+    + encodeURIComponent("select * where H > now() and L = 'Yes' order by(`H`) limit " + n);
+  return getData(url)
 }
 
-const recentEventCache = {
-  data: null as string[][] | null,
-  lastFetch: 0,
-  cacheDuration: 15 * 60 * 1000 // 15 minutes cache
-};
+// Get Past Events
+export function getRecentEvents(limit = 10, page = 1) {
+  const offset = (page - 1) * limit;
+  const query = `...LIMIT ${limit} OFFSET ${offset}`;
+  const url = `https://docs.google.com/spreadsheets/d/${EVENT_SHEET_ID}/gviz/tq?tqx=out:csv&sheet=s1&tq=` +
+    encodeURIComponent(
+      `SELECT A,B,C,D,E,F,G,H,I,L ` +
+      `WHERE H < now() AND L = 'Yes' ` +
+      `ORDER BY H DESC ` +
+      `LIMIT ${limit}`
+    );
 
-export async function getRecentEvents(limit = 11): Promise<string[][]> {
-  // Return cached data if available and fresh
-  if (recentEventCache.data && Date.now() - recentEventCache.lastFetch < recentEventCache.cacheDuration) {
-    return recentEventCache.data.slice(0, limit);
-  }
-
-  const url = `https://docs.google.com/spreadsheets/d/${EVENT_SHEET_ID}/export?format=csv&cache=${Date.now()}`;
-  
-  try {
-    const rawData = await getData(url);
-    
-    // Process in chunks to prevent UI blocking
-    const filteredData = await new Promise<string[][]>((resolve) => {
-      setTimeout(() => {
-        const lastRows = rawData.slice(-limit); // Get extra rows to account for filtered ones
-        
-        const result = lastRows.filter(row => {
-          try {
-            const dateStr = row[7];
-            const isPublished = row[11] === "Yes";
-            
-            if (!dateStr || !isPublished) return false;
-            
-            const date = moment(dateStr, [
-              "DD/MM/YYYY HH:mm:ss",
-              "MM/DD/YYYY HH:mm:ss"
-            ]);
-            
-            return date.isValid() && date.isBefore(moment());
-          } catch (e) {
-            console.warn("Error parsing row:", row, e);
-            return false;
-          }
-        });
-        
-        resolve(result);
-      }, 0);
-    });
-
-    // Update cache
-    recentEventCache.data = filteredData;
-    recentEventCache.lastFetch = Date.now();
-    
-    return filteredData;
-  } catch (error) {
+  return getData(url).catch(error => {
     console.error("Fetch failed:", error);
     return [];
-  }
+  });
 }
 
 export function getImgLink(link: string) {

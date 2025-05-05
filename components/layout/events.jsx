@@ -164,8 +164,8 @@ const NewsEvents = () => {
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3">
                       <div className="flex justify-between items-center">
                         <span className={`px-2 py-1 rounded-full text-[10px] font-bold ${item[8]?.toLowerCase() === 'online'
-                          ? 'bg-blue-500 text-white'
-                          : 'bg-green-500 text-white'
+                          ? 'bg-green-500 text-white'
+                          : 'bg-blue-500 text-white'
                           }`}>
                           {item[8] || 'Event'}
                         </span>
@@ -181,7 +181,7 @@ const NewsEvents = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-3">
+                  < div className="p-3" >
                     <div className="flex justify-between items-start mb-2">
                       <h3 className="text-md font-bold text-gray-800 line-clamp-2 pr-2">
                         {item[3]}
@@ -194,12 +194,14 @@ const NewsEvents = () => {
                         <SquareArrowOutUpRight size={16} />
                       </a>
                     </div>
-                    {item[4] && (
-                      <p className="text-gray-600 text-xs mb-2 line-clamp-2">
-                        {item[4]}
-                      </p>
-                    )}
-                    <div className="flex flex-col gap-1 pt-2 border-t border-gray-100">
+                    {
+                      item[4] && (
+                        <p className="text-gray-600 text-xs mb-2 line-clamp-2">
+                          {item[4]}
+                        </p>
+                      )
+                    }
+                    < div className="flex flex-col gap-1 pt-2 border-t border-gray-100" >
                       <div className="flex items-center text-gray-700 text-xs">
                         <CalendarDays size={14} className="mr-1.5 text-gray-500" />
                         <span>{moment(item[7], "DD/MM/YYYY HH:mm:ss")?.format("MMM Do YYYY")}</span>
@@ -211,12 +213,13 @@ const NewsEvents = () => {
                     </div>
                   </div>
                 </div>
-              ))}
-            </Marquee>
-          </div>
+              ))
+              }
+            </Marquee >
+          </div >
         </>
       )}
-    </div>
+    </div >
   );
 };
 
