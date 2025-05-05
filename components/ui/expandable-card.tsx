@@ -71,7 +71,7 @@ export function ExpandableCard({ cards }: any) {
       </AnimatePresence>
       <AnimatePresence>
         {active && typeof active === "object" ? (
-          <div className="fixed inset-0  grid place-items-center z-[100]">
+          <div className="fixed inset-0 flex items-start justify-center z-[100] bg-black/20 overflow-y-auto">
             <motion.button
               key={`button-${active.title}-${id}`}
               layout
@@ -87,7 +87,7 @@ export function ExpandableCard({ cards }: any) {
                   duration: 0.05,
                 },
               }}
-              className="flex absolute top-2 right-2 lg:hidden items-center justify-center bg-white rounded-full h-6 w-6"
+              className="flex z-50 absolute top-2 right-4 shadow-md shadow-slate-300 items-center justify-center bg-white rounded-full h-8 w-8"
               onClick={() => setActive(null)}
             >
               <CloseIcon />
@@ -95,7 +95,10 @@ export function ExpandableCard({ cards }: any) {
             <motion.div
               layoutId={`card-${id}`}
               ref={ref}
-              className="w-full  md:max-w-[60%] h-full md:h-fit md:max-h-[90%] md:justify-center items-center flex flex-col bg-white  sm:rounded-3xl overflow-hidden"
+              className="fixed inset-0
+              flex flex-col
+              bg-gray-50
+              overflow-auto"
             >
                <motion.div layoutId={`image-${id}`} className="w-full border rounded-lg md:m-4 p-20 flex justify-center items-center">
                   {getAnnouncementIcon(active.icon, 64)}

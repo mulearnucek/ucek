@@ -9,14 +9,19 @@ export const EVENT_SHEET_ID = "1JF8JCd01dGp1s3iFiriOUHZxlMro63vCAf5Qsm7RNEE"
 export const FACULTY_SHEET_ID = "1xz8r0PBP5Z3mdH2VC7oSuumJ5inh0ZIvGANrcPn5Z_E"
 
 
-export function getData(url: string): Promise<string[][]> {
+export function getData(url: string, excludeArc: boolean = true): Promise<string[][]> {
   return new Promise((resolve, reject) => {
     Papa.parse<string[]>(url, {
       download: true,
       skipEmptyLines: true,
       complete(results) {
         let d = results.data;
-        d.shift()
+        d.shift(); // Remove header row
+
+        if (excludeArc) {
+          d = d.filter(row => row[6]?.trim() !== "Arc"); // Column G = index 6
+        }
+
         resolve(d);
       },
       error(error) {
@@ -30,23 +35,19 @@ export function getData(url: string): Promise<string[][]> {
 
 // Get Upcoming Events
 export function getUpcomingEvents(n = "20"): Promise<string[][]> {
-  const url = "https://docs.google.com/spreadsheets/d/"
-    + EVENT_SHEET_ID
-    + "/gviz/tq?tqx=out:csv&sheet=s1&tq="
-    + encodeURIComponent("select * where H > now() and L = 'Yes' order by(`H`) limit " + n);
-  return getData(url)
+  const url = "https://docs.google.com/spreadsheets/d/" +
+    EVENT_SHEET_ID +
+    "/gviz/tq?tqx=out:csv&sheet=s1&tq=" +
+    encodeURIComponent("select * where H > now() and L = 'Yes' order by(H) limit " + n);
+  
+  return getData(url);
 }
 
 // Get Past Events
-export function getRecentEvents(limit = 10, page = 1) {
-  const offset = (page - 1) * limit;
-  const query = `...LIMIT ${limit} OFFSET ${offset}`;
+export function getRecentEvents(limit = 10): Promise<string[][]> {
   const url = `https://docs.google.com/spreadsheets/d/${EVENT_SHEET_ID}/gviz/tq?tqx=out:csv&sheet=s1&tq=` +
     encodeURIComponent(
-      `SELECT A,B,C,D,E,F,G,H,I,L ` +
-      `WHERE H < now() AND L = 'Yes' ` +
-      `ORDER BY H DESC ` +
-      `LIMIT ${limit}`
+      `SELECT * WHERE H < now() AND L = 'Yes' ORDER BY H DESC LIMIT ${limit}`
     );
 
   return getData(url).catch(error => {
