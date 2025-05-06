@@ -199,7 +199,7 @@ const Nav = () => {
             </button>
             <div
               ref={setDropDownRef(2)}
-              className={`origin-top-right absolute -right-10 md:right-0 md:left-0 mt-2 w-72 bg-white border rounded-xl md:text-[14px] text-[12px] z-30 shadow-lg department ${
+              className={`origin-top-right absolute -right-10 mt-2 w-72 bg-white border rounded-xl md:text-[14px] text-[12px] z-30 shadow-lg department ${
                 openDropdown === "departments" ? "block" : "hidden"
               } ${isHomePage ? "-right-10 home-dep" : "right-1 nothome-dep"}`}
             >
@@ -257,9 +257,9 @@ const Nav = () => {
             </button>
             <div
               ref={setDropDownRef(3)}
-              className={`absolute -right-10 md:left-0 mt-2 w-44 bg-white border rounded-xl md:text-[14px] text-[12px] z-30 shadow-lg dropdown‑clubs ${
+              className={`absolute -right-10 mt-2 w-44 bg-white border rounded-xl md:text-[14px] text-[12px] z-30 shadow-lg dropdown‑clubs ${
                 openDropdown === "clubs" ? "block" : "hidden"
-              } ${isHomePage ? "max-md:right-1" : "max-md:-right-[5rem]"}`}
+              } ${isHomePage ? "max-md:right-1" : "max-md:-right-[5rem] nothomeclub"}`}
             >
                <Link
                 href="/clubs/foss"
@@ -273,8 +273,8 @@ const Nav = () => {
                 href="#"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
-                 <Image src={"/logos/gdsc.png"} width={30} height={30} alt="logo"/>
-                Google DSC
+                 <Image src={"/logos/hult.png"} width={30} height={30} alt="logo"/>
+                 Hult Prize
               </Link>
               <Link
                 href="/clubs/ieee"
