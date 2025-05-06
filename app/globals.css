@@ -32,6 +32,43 @@ body {
   }
 }
 
+@media (max-width: 335px) {
+  .dropdown‑clubs {
+    width: 9rem;
+    left: -3rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .nothome-dep {
+    left:-0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nothomeclub {
+    right: -3rem;
+  }
+}
+
+@media (min-width: 386px) {
+  .nothomeclub {
+    left: -8rem;
+  }
+}
+
+@media (max-width: 335px) {
+  .department {
+    right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-dep {
+    right: -2.5rem;
+  }
+}
+
 .md-table-wraper {
   overflow-x: auto;
   max-width: 100%;
