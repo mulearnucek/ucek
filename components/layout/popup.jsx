@@ -15,6 +15,8 @@ const Popup = () => {
             overlay?.classList.add('opacity-100', 'pointer-events-auto');
             popupBox?.classList.remove('opacity-0', 'scale-95');
             popupBox?.classList.add('opacity-100', 'scale-100');
+            document.body.style.overflow = 'hidden';
+            document.documentElement.style.overflow = 'hidden';
         };
 
         const hidePopup = () => {
@@ -22,6 +24,8 @@ const Popup = () => {
             overlay?.classList.remove('opacity-100', 'pointer-events-auto');
             popupBox?.classList.add('opacity-0', 'scale-95');
             popupBox?.classList.remove('opacity-100', 'scale-100');
+            document.body.style.overflow = 'auto';
+            document.documentElement.style.overflow = 'auto';
         };
 
         const hasCookie = document.cookie.includes('uimonkCookie=uimonk');
@@ -37,7 +41,9 @@ const Popup = () => {
         };
 
         closeBtn?.addEventListener('click', handleClose);
-        return () => closeBtn?.removeEventListener('click', handleClose);
+        return () => {closeBtn?.removeEventListener('click', handleClose);
+        document.body.style.overflow = 'auto';
+        document.documentElement.style.overflow = 'auto';}
     }, []);
 
     return (
