@@ -57,6 +57,12 @@ body {
   }
 }
 
+@media (max-width: 386px) {
+  .nothomeclub {
+    left: -1rem;
+  }
+}
+
 @media (max-width: 335px) {
   .department {
     right: 0;
@@ -115,4 +121,19 @@ body {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
+}
+
+.achievements-table td,
+.achievements-table th {
+  vertical-align: middle;
+  text-align: center;
+}
+.achievements-table td:nth-child(3) {
+  text-align: left;
+}
+
+@media (min-width: 422px) {
+  .facilities {
+    left: -6rem;
+  }
 }
