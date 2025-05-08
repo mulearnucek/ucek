@@ -1,6 +1,6 @@
 FOSS Club
 
-### <span style="color: black; font-weight: 500;">Empowering Students Through Open Source</span>
+### <span style="color: black; font-weight: 600;text-align: center; display:block;">Empowering Students Through Open Source</span>
 
 <div style="background: #f5f9f5; display:flex; padding: 20px;flex-direction:column; border-radius: 8px; margin: 20px 0; text-align: center; align-items:center;">
 The FOSS Club at UCEK fosters open-source innovation through hands-on workshops and collaborative learning. Our community empowers students with practical skills and connects them with global open-source opportunities.
@@ -13,7 +13,7 @@ The FOSS Club at UCEK fosters open-source innovation through hands-on workshops 
       Visit
     </span>
     <span style="background-color: purple; color: white; display: flex; align-items: center; padding: 0 14px; font-weight:700;">
-      Foss Community
+      fossucek.tech
     </span>
   </span>
 </a>
@@ -39,17 +39,20 @@ The FOSS Club at UCEK fosters open-source innovation through hands-on workshops 
 </div>
 
 <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="/clubs/foss-orientation.jpg" alt="FOSS Orientation" style="width: 100%;margin:-26px 0px 10px 0px; height: 200px; object-fit: cover;">
-<div style="padding:0px 15px;">
-<h3 style="margin-top: 0; color: black;">FOSS Orientation</h3>
-<p style="color: #666; font-size: 0.9em;">Sep 26, 2024 | EMS Hall</p>
-<ul style="padding-left: 20px; margin-bottom: 0;">
-<li>"Truth & Lie" interactive game</li>
-<li>AI Prompt Challenge</li>
-<li>Chair: Isha Jagath</li>
-<li>4 Freedoms explained</li>
-</ul>
-</div>
+  <img src="/clubs/linkedin-intro.png" alt="Intro to LinkedIn" style="width: 100%; margin:-26px 0px 10px 0px; height: 200px; object-fit: cover; object-position: 50% 30%;">
+  <div style="padding:0px 15px;">
+    <h3 style="margin-top: 0; color: black;">Intro to LinkedIn</h3>
+    <p style="color: #666; font-size: 0.9em;">Oct 7, 2024 | Google Meet</p>
+    <ul style="padding-left: 20px; margin-bottom: 0;">
+      <li>Speakers: Isha Jagat & Amarnath Sujith</li>
+      <li>Introductory session for LinkedIn beginners</li>
+      <li>Step-by-step profile setup guidance</li>
+      <li>Tips on professional photos, headlines & summaries</li>
+      <li>LinkedIn profile optimization</li>
+      <li>Networking & job hunting strategies</li>
+      <li>Strategies to engage with content & recruiters</li>
+    </ul>
+  </div>
 </div>
 
 <div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -64,6 +67,36 @@ The FOSS Club at UCEK fosters open-source innovation through hands-on workshops 
 <li>100M+ developers platform</li>
 </ul>
 </div>
+</div>
+
+<div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="/clubs/foss-orientation.jpg" alt="FOSS Orientation" style="width: 100%;margin:-26px 0px 10px 0px; height: 200px; object-fit: cover;">
+<div style="padding:0px 15px;">
+<h3 style="margin-top: 0; color: black;">FOSS Orientation</h3>
+<p style="color: #666; font-size: 0.9em;">Sep 26, 2024 | EMS Hall</p>
+<ul style="padding-left: 20px; margin-bottom: 0;">
+<li>"Truth & Lie" interactive game</li>
+<li>AI Prompt Challenge</li>
+<li>Chair: Isha Jagath</li>
+<li>4 Freedoms explained</li>
+</ul>
+</div>
+</div>
+
+<div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/clubs/error418-hackathon.png" alt="ERROR_418 Hackathon" style="width: 100%; margin:-26px 0px 10px 0px; height: 200px; object-fit: cover; object-position: 50% 1.5rem;">
+  <div style="padding:0px 15px;">
+    <h3 style="margin-top: 0; color: black;">ERROR_418 Hackathon</h3>
+    <p style="color: #666; font-size: 0.9em;">Sept 7–8, 2024 | Club House, Technopark</p>
+    <ul style="padding-left: 20px; margin-bottom: 0;">
+      <li>24-hour hackathon at FAYA, Technopark Phase 1</li>
+      <li>10 teams showcased innovation & teamwork</li>
+      <li>Mentorship, food & drinks provided</li>
+      <li>Judges: Subin Abid, Mehruniza Nazeem, Suryan S, Shaheen Hyder</li>
+      <li>Faculty visits: Sabeena Miss & Vidhya Miss</li>
+      <li>Free entry; sponsored by UCEK, AKEF, Unibics, FM Grills</li>
+    </ul>
+  </div>
 </div>
 
 </div>

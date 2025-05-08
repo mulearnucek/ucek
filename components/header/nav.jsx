@@ -270,7 +270,7 @@ const Nav = () => {
               </Link>
 
               <Link
-                href="#"
+                href="/clubs/hult"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
                  <Image src={"/logos/hult.png"} width={30} height={30} alt="logo"/>
@@ -284,14 +284,14 @@ const Nav = () => {
                 IEEE SB UCEK
               </Link>
               <Link
-                href="#"
+                href="/clubs/iedc"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
                  <Image src={"/logos/iedc.png"} width={30} height={30} alt="logo"/>
                 Legacy IEDC
               </Link>
               <Link
-                href="#"
+                href="/clubs/mulearn"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
               <Image src={"/logos/mulearn.png"} width={30} height={30} alt="logo"/>
@@ -314,6 +314,86 @@ const Nav = () => {
             </div>
           </div>
          
+          <div className="relative">
+            <button
+              ref={setButtonRef(5)}
+              onClick={() => handleDropdownToggle("facilities")}
+              className="text-gray-600 hover:text-gray-800 flex items-center"
+            >
+              Facilities
+              <svg
+                className="w-3 h-3 ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            <div
+              ref={setDropDownRef(5)}
+              className={` absolute -left-10 mt-2 w-40 bg-white border rounded-xl md:text-[14px] text-[12px] z-30 shadow-lg facilities ${
+                openDropdown === "facilities" ? "block" : "hidden"
+              }`}
+            >
+              <Link
+                href="/facilities/canteen"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Canteen
+              </Link>
+              
+              <Link
+                href="/facilities/centrallibrary.php"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Central Library
+              </Link>
+              <Link
+                href="/facilities/co-op-society"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Co-Op-Society
+              </Link>
+              <Link
+                href="/facilities/college-bus"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                College Bus
+              </Link>
+              <Link
+                href="/facilities/health-centre"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Health Centre
+              </Link>
+              <Link
+                href="/facilities/scholarship.php"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Scholarship
+              </Link>
+              {/* <Link
+                href="/facilities/store-facility"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 hover:rounded-b-xl gap-2 items-center py-3"
+              >
+                Store Facility
+              </Link> */}
+              <Link
+                href="/facilities/wifi-facility"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Wifi Facility
+              </Link>
+            </div>
+          </div>
+
           <div className="relative">
             <button
               ref={setButtonRef(2)}
@@ -396,7 +476,7 @@ const Nav = () => {
         </nav>
       </div>
       <div className="md:h-[50px] z-10 pb-2 sm:pb-0 bg-white border-t-[1.8px] border-[#2D3E50] w-full flex items-center ">
-        <div className="w-full px-5 md:px-4 md:py-0 mt-2 md:mt-0 flex flex-wrap justify-center md:justify-evenly ">
+        <div className="w-full md:px-4 md:py-0 mt-2 md:mt-0 flex flex-wrap justify-center md:justify-evenly ">
           {menu.map((item, idx) => (
             <div key={`p${idx}`} className="flex items-center">
               <Link
