@@ -87,6 +87,8 @@ export default async function Post({
 }) {
   const { title, content, lastUpdated } = getArticle(params);
 
+if(title == "404") return notFound();
+
   return (
     <>
       <Topnav />
