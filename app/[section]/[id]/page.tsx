@@ -11,6 +11,7 @@ import ucekImage from "@/public/img/ucek.jpeg";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import { notFound } from "next/navigation";
 
 const contentDir = path.join(process.cwd(), "contents");
 
