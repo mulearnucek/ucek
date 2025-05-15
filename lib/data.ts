@@ -75,6 +75,6 @@ export function getAnnouncements(): Promise<string[][]> {
   const url = "https://docs.google.com/spreadsheets/d/"
     + CONTENT_SHEET_ID
     + "/gviz/tq?tqx=out:csv&sheet=announcements&tq="
-    + encodeURIComponent("select *");
+    + encodeURIComponent("select * ORDER BY A DESC limit 6");
   return getData(url)
 }

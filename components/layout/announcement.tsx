@@ -1,10 +1,11 @@
 "use client";
 import React, { use, useEffect, useState } from "react";
 import { ExpandableCard } from "../ui/expandable-card";
-import { getAnnouncements } from "@/lib/data";
+import { getAnnouncements, getImgLink } from "@/lib/data";
 import { BellOff, BellPlus, BookUser, CalendarDays, ScrollText, TreePalm, TriangleAlert } from "lucide-react";
 import Loading from "@/app/loading";
 import { Skeleton } from "../ui/skeleton";
+import Popup from "./popup";
 
 
 type Card = {
@@ -13,6 +14,7 @@ type Card = {
   icon: string;
   content: string;
   important: boolean;
+  image: string | null;
 };
 
 
@@ -20,6 +22,7 @@ const Announcement = () => {
 
   const [cards, setCards] = useState<Card[]>([]);
   const [loading, setLoading] = useState(true);
+  const [popup, setPopup] = useState<string | null>(null);
 
   useEffect(() => {
     getAnnouncements().then((data) => {
@@ -31,7 +34,14 @@ const Announcement = () => {
           icon: item[2],
           content: item[4],
           important: item[5]=="Yes" ? true : false,
+          image: item[6]!= "" ? getImgLink(item[6]) : null,
         })
+
+      if (item[7] == "Yes" && item[6] != "") {
+        setPopup(getImgLink(item[6]));
+      }
+
+
       });
       setLoading(false);
       setCards(temp);
@@ -39,9 +49,10 @@ const Announcement = () => {
   },[])
 
 
-  return (
+  return (<>
+    {popup && <Popup image={popup}/>}
     <div className="flex flex-col md:flex-row bg-white w-full h-auto md:h-[65vh] justify-center items-center gap-8 md:gap-40 p-8 md:p-20 space-y-8 md:space-y-0">
-      <div className="space-y-4 flex-col items-center justify-center">
+      <div className=" flex-col items-center justify-center">
         <h2 className="text-[2rem] font-bold flex items-center mb-6">
           <span className="w-2 h-6 bg-blue-500 mr-2"></span> Announcements
         </h2>
@@ -68,6 +79,7 @@ const Announcement = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 
