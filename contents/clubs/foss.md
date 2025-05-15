@@ -2,8 +2,12 @@ FOSS Club
 
 ### <span style="color: black; font-weight: 600;text-align: center; display:block;">Empowering Students Through Open Source</span>
 
-<div style="background: #f5f9f5; display:flex; padding: 20px;flex-direction:column; border-radius: 8px; margin: 20px 0; text-align: center; align-items:center;">
-The FOSS Club at UCEK fosters open-source innovation through hands-on workshops and collaborative learning. Our community empowers students with practical skills and connects them with global open-source opportunities.
+<div style="background: #f5f9f5; display:flex; padding: 20px;flex-direction:column; border-radius: 8px; margin: 20px 0;  align-items:center;">
+The primary objective of the FOSS Club is to foster a robust technological foundation among college students, empowering them to become proficient in free and open-source software. We strive to create a vibrant community that encourages students to explore, learn, and contribute to the world of FOSS.
+<li> Develop technical skills: Provide students with hands-on experience in using, modifying, and developing FOSS solutions.</li>
+<li> Promote innovation: Encourage students to think creatively and develop innovative solutions using FOSS tools and technologies.</li>
+<li> Build community: Create a supportive network of like-minded individuals who share knowledge, ideas, and experiences.</li>
+
 
 
 <a href="https://fossucek.tech/" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
@@ -46,10 +50,8 @@ The FOSS Club at UCEK fosters open-source innovation through hands-on workshops 
     <ul style="padding-left: 20px; margin-bottom: 0;">
       <li>Speakers: Isha Jagat & Amarnath Sujith</li>
       <li>Introductory session for LinkedIn beginners</li>
-      <li>Step-by-step profile setup guidance</li>
       <li>Tips on professional photos, headlines & summaries</li>
       <li>LinkedIn profile optimization</li>
-      <li>Networking & job hunting strategies</li>
       <li>Strategies to engage with content & recruiters</li>
     </ul>
   </div>

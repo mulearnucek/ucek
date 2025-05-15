@@ -3,44 +3,54 @@ Hult Prize
 ## <span style="color: black; font-weight: 600;text-align: center; display:block;">Empowering Student Changemakers</span>
 
 <div style="background: #f5f9fc; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; display:flex; flex-direction:column; align-items:center;">
-The Hult Prize at UCEK is a student-led movement inspiring the next generation of social entrepreneurs. As a proud chapter of the globally renowned Hult Prize Foundation (often called the "Nobel Prize for Students"), we challenge students to create startup solutions to the world's most pressing problems.
+Hult Prize at UCEK is a premier student-led chapter of the world-renowned Hult Prize Foundation—hailed as the “Nobel Prize for Students.” We empower visionary minds to turn global challenges into purpose-driven, high-impact ventures.
 
-<!-- <a href="https://hultprizeatucek.in" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
+<a href="https://www.hultprize.org/" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
   <span style="display: inline-flex; height: 28px; overflow: hidden; font-size: 13px; font-weight: bold; text-transform: uppercase;">
     <span style="background-color: #4b4b4b; color: white; display: flex; align-items: center; padding: 0 12px; font-weight:500;">
-    <img src='/logos/hultprize.png' alt="Hult Prize Logo" style="height: 30px; margin-right: 8px; filter: brightness(0) invert(1);" />
+    <img src='/logos/hult.png' alt="Hult Prize Logo" style="height: 18px; margin-right: 8px; filter: brightness(150%);"/>
       Visit
     </span>
     <span style="background-color:#00A651; color: white; display: flex; align-items: center; padding: 0 14px; font-weight:700;">
-      HULTPRIZEATUCEK.IN
+      HULTPRIZE.ORG
     </span>
   </span>
-</a> -->
+</a>
 
 </div>
 
 ## Our Mission
 
-At Hult Prize UCEK, our mission is to empower students to lead with purpose and entrepreneurial spirit. We aim to foster a vibrant startup ecosystem within UCEK, supported by global resources and real-world mentorship. Our vision goes beyond competitions - we strive to cultivate changemakers who build sustainable ventures for social good.
+Inside Hult Prize UCEK
+Where Vision Meets Venture.
+
+At Hult Prize UCEK, we don’t just explore ideas—we build the future. As the official on-campus program of the globally celebrated Hult Prize Foundation, we empower students to craft innovative startups that solve humanity’s toughest challenges.
+
+We support emerging businesses, foster entrepreneurial talent, and create a vibrant startup ecosystem that thrives on collaboration and impact. Here, we don’t just create ventures—we cultivate a real ecosystem, one that empowers students to build startups with purpose and meaning.
+
+Backed by global mentorship, premium experiences, and a pathway to the world stage, we help the bold become founders—and ideas become transformative solutions.
+
 
 ## What We Do
 
-Every year, we bring together aspiring student entrepreneurs through:
-- Workshops & idea labs
-- Entrepreneurship bootcamps
-- Flagship OnCampus Program
-- Networking events with industry leaders
+The Hult Prize Impact
+At Hult Prize UCEK, we offer more than just a competition—it's a launchpad for the next wave of global entrepreneurs. Winners of the Hult Prize OnCampus Challenge earn a chance to compete for $1 million in seed funding, propelling their ventures into a new realm of possibility.
 
-Winning teams get the opportunity to advance to regional and global rounds, competing for $1 million USD in seed funding.
+Our flagship event, Yathra, brings together 280+ changemakers for a summit of innovation and collaboration. It’s a platform where ideas are elevated, networks are built, and the future of entrepreneurship is shaped.
+
 
 ## Our Partners
 
 Hult Prize UCEK thrives through the support of visionary collaborators:
+- Fulva
 - GTech MuLearn
-- Kerala Startup Mission (KSUM)
 - IEDC Kerala
+- Kerala Startup Mission (KSUM)
 - Samrambhak Mithra
 - University College of Engineering Kariavattom
+- UXShots
+- Varsya Eco Solutions
+
 
 ## <span style="color: black; border-bottom: 2px solid black; padding-bottom: 5px;">🌟 Event Gallery</span>
 

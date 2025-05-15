@@ -298,7 +298,7 @@ const Nav = () => {
                 Mulearn UCEK
               </Link>
               <Link
-                href="#"
+                href="/clubs/nss"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
                  <Image src={"/logos/nss.png"} width={30} height={30} alt="logo"/>
