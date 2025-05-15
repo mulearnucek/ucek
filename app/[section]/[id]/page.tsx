@@ -11,6 +11,7 @@ import ucekImage from "@/public/img/ucek.jpeg";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import { notFound } from "next/navigation";
 
 const contentDir = path.join(process.cwd(), "contents");
 
@@ -86,6 +87,8 @@ export default async function Post({
   params: { id: string; section: string };
 }) {
   const { title, content, lastUpdated } = getArticle(params);
+
+if(title == "404") return notFound();
 
   return (
     <>
