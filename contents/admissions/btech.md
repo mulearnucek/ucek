@@ -31,7 +31,7 @@ No Entrance test is required for getting admission to BTech course under NRI Quo
 | Refundable deposit(Interest free) | **₹1,25,000/-**
 </div>
 
-Other fees like placement fee, Office fee & PTA fee are needed to be paid separatel.
+Other fees like placement fee, Office fee & PTA fee are needed to be paid separately.
 
 To express interest in future vacancies for B.Tech admission under the NRI quota, please submit the enclosed form. When vacancies arise, the admission process will be conducted in accordance with the NRI prospectus guidelines.
 
