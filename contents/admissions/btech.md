@@ -7,7 +7,7 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 **Document To Be Submitted At The College During Admission:**
 1. Data Sheet of KEAM
 2. Allotment Memo
-3. Certificate to prove Date Of Birth
+3. SSLC Certificate (to prove Date Of Birth)
 4. Transfer Certificate from the Institution last attended and Conduct Certificate
 5. Original Marklist of Higher Secondary or equivalent
 6. Migration Certificate, if required
