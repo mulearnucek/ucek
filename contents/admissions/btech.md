@@ -33,6 +33,8 @@ No Entrance test is required for getting admission to BTech course under NRI Quo
 
 To express interest in future vacancies for B.Tech admission under the NRI quota, please submit the enclosed form. When vacancies arise, the admission process will be conducted in accordance with the NRI prospectus guidelines.
 
+₹100/- should be paid at University Cash Counter (Kariavattom) and the challan should be brought along with the application.
+
 [Registration Form for B.Tech degree courses under NRI quota.](https://docs.google.com/forms/d/e/1FAIpQLSdrUTSeeNzymiQ2yyiUoYLxSdUUl_SLgU3H7dTWwbPRant1WQ/viewform)
 
 [Download Application Form for admission to B.Tech degree courses under NRI quota.](/docs/nriadm.pdf)
@@ -72,7 +74,7 @@ SM - State Merit, MG - Management
 |  **#** |  **DETAILS OF FEE** |  **FEE (MERIT)** |  **FEE (MANAGEMENT)** |  **METHOD OF REMITTANCE** |
 | --- | --- | --- | --- | --- |
 |  1 |  TUITION FEE |  26,750 (For Semester 1 and Semester 2) | 58,250 (For Semester 1 and Semester 2) |  Demand Draft In Favour Of Finance Officer, University Of Kerala |
-|  2 |  OFFICE FEE |  4,950 |  8,950 |  By Cash At College |
+|  2 |  OFFICE FEE |  5,265 |  9,265 |  By Cash At College |
 |  3 |  PTA FEE |  6000 |  8500 |  By Cash At College |
 |  4 |  PLACEMENT FEE |  1000 |  1000 |  By Cash At College |
 
