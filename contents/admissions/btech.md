@@ -88,5 +88,3 @@ SM - State Merit, MG - Management
 
 
 No tution fee for SC/ST/fee waiver category. 
-
-All balance amount will be refunded except 160/- when requesting TC. 
