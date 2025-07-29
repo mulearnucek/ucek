@@ -7,7 +7,7 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 **Document To Be Submitted At The College During Admission:**
 1. Data Sheet of KEAM
 2. Allotment Memo
-3. Certificate to prove Date Of Birth
+3. SSLC Certificate (to prove Date Of Birth)
 4. Transfer Certificate from the Institution last attended and Conduct Certificate
 5. Original Marklist of Higher Secondary or equivalent
 6. Migration Certificate, if required
@@ -21,7 +21,10 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 
 No Entrance test is required for getting admission to BTech course under NRI Quota Eligibilty: Candidates who have passed the Higher secondary Examination or Equivalent with 45% marks in Mathematics, Physics and Chemistry put together.
 
-#### Fee Details (NRI)
+> ### <a href="https://drive.usercontent.google.com/download?id=1p2xAR43Jyqsz6zdlsAJVcHScuKX-eMvs&export=download"> NRI Rank List 2025
+</a>
+
+### Fee Details (NRI)
 
 <div class="md-table-wraper" markdown="block">
 
@@ -73,11 +76,14 @@ SM - State Merit, MG - Management
 
 <div class="md-table-wraper" markdown="block">
 
-|  **#** |  **DETAILS OF FEE** |  **FEE (MERIT)** |  **FEE (MANAGEMENT)** |  **METHOD OF REMITTANCE** |
-| --- | --- | --- | --- | --- |
-|  1 |  TUITION FEE |  26,750 (For Semester 1 and Semester 2) | 58,250 (For Semester 1 and Semester 2) |  Demand Draft In Favour Of Finance Officer, University Of Kerala |
-|  2 |  OFFICE FEE |  5,265 |  9,265 |  By Cash At College |
-|  3 |  PTA FEE |  6000 |  8500 |  By Cash At College |
-|  4 |  PLACEMENT FEE |  1000 |  1000 |  By Cash At College |
+|  **#** |  **DETAILS OF FEE** |  **FEE (MERIT)** |  **FEE (MANAGEMENT)** | **FEE (NRI)** |  **METHOD OF REMITTANCE** |
+| --- | --- | --- | --- | --- | ---
+|  1 |  TUITION FEE (Yearly) |  36,750 | 68,250 | 1,05,000 |  Demand Draft In Favour Of Finance Officer, University Of Kerala |
+|  2 |  OFFICE FEE |  5,465 |  9,465 | 14,465 |  By Cash At College |
+|  3 |  PTA FEE |  6,000 |  8,500 | 12,000 | By Cash At College |
+|  4 |  PLACEMENT FEE |  1,000 |  1,000 | 1,000 |  By Cash At College |
+|  5 | INTEREST FREE REFUNDABLE DEPOSIT | Nil | Nil | 1,25,000 |Demand Draft In Favour Of Finance Officer, University Of Kerala
 
 </div>
+
+No tution fee for SC/ST/fee waiver category. 
