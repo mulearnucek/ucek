@@ -101,7 +101,7 @@ SM - State Merit, MG - Management
 
 * No tution fee for SC/ST/fee waiver category.
 
-* All balance amount will be refunded except 160/- when opting out from the course.
+* All balance amount will be refunded except ₹160/- when opting out from the course.
 
 * Tuition fees and office fees are required to be paid at the time of admission.
 
