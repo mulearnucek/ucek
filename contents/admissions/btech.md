@@ -86,5 +86,4 @@ SM - State Merit, MG - Management
 
 </div>
 
-
 No tution fee for SC/ST/fee waiver category. 

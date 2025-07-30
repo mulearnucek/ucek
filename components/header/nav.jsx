@@ -448,6 +448,12 @@ const Nav = () => {
                 Faculties
               </Link>
               <Link
+                href="https://notes.uck.ac.in/"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Notes & Syllabus
+              </Link>
+              <Link
                 href="/about/disclosures"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
