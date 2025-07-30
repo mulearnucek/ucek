@@ -99,4 +99,12 @@ SM - State Merit, MG - Management
 
 </div>
 
-No tution fee for SC/ST/fee waiver category. 
+* No tution fee for SC/ST/fee waiver category.
+
+* All balance amount will be refunded except 160/- when opting out from the course.
+
+* Tuition fees and office fees are required to be paid at the time of admission.
+
+* If you are not looking for a higher option then PTA fee and placement fee must be paid at the time of admission itself. Otherwise PTA and placement fee can be paid on the date of commencement of regular classes.
+
+* Please be noted that PTA, placement and office fee must be paid in cash only and is required to remit the exact amount (including changes).
