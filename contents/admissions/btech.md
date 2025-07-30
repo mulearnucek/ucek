@@ -65,10 +65,10 @@ SM - State Merit, MG - Management
 
 <div class="md-table-wraper" markdown="block">
 
-| SEAT | AMOUNT PER YEAR |
-|:---|:---|
-| Merit | **₹36,750/-** |
-| Management | **₹68,250/-** |
+| SEAT | AMOUNT PER YEAR | FIRST YEAR | 
+|:---|:---|:---|
+| Merit | **₹36,750/-** | **₹26,750/-**
+| Management | **₹68,250/-** | **₹58,250/-**
 | NRI | **₹1,05,000/-** |
 </div>
 
