@@ -5,17 +5,30 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 <center><h3>KEAM CODE : UCK</h3></center>
 
 **Document To Be Submitted At The College During Admission:**
-1. Data Sheet of KEAM
-2. Allotment Memo
-3. SSLC Certificate (to prove Date Of Birth)
-4. Transfer Certificate from the Institution last attended and Conduct Certificate
-5. Original Marklist of Higher Secondary or equivalent
-6. Migration Certificate, if required
-7. Receipt of fee remitted to CEE
-8. Eligibility certificate, if required
-9. Physical Fitness Certificate
-10. Originals Of The All Documents And Certificates
-11. DD Taken For The Tution Fee
+
+1.⁠ ⁠Allotment memo(second phase)
+
+2.⁠ ⁠Data Sheet
+
+3.⁠ ⁠SSLC/10TH certificate Original 
+
+4.⁠ ⁠Plus two/12th certificate Original 
+
+5.⁠ ⁠TC (Plus two/12th/from the institution last attended) Original 
+
+6.⁠ ⁠COURSE AND CONDUCT CERTIFICATE Original 
+
+7.⁠ ⁠PHYSICAL FITNESS
+
+8.⁠ ⁠Migration certificate ( Original/Digilocker)
+
+9.⁠ ⁠Cast certificate mandatory for reserved category students.
+
+10.⁠ ⁠Receipt of Fee remitted to CEE.
+
+11.⁠ ⁠All other documents have been updated for CEE, please bring them at the time of admission.
+
+If the students have any reservations, consider that specific certificates.
 
 ## NRI Admissions
 
