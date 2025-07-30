@@ -1,4 +1,4 @@
-Admissions (B.Tech)
+7Admissions (B.Tech)
 
 ## Regular Admissions
 Admission to Merit and Management Quotas are done by CEE through KEAM.
@@ -28,7 +28,7 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 
 11.⁠ ⁠All other documents have been updated for CEE, please bring them at the time of admission.
 
-If the students have any reservations, consider that specific certificates.
+**If the students have any reservations, submit that certificates too.**
 
 ## NRI Admissions
 
