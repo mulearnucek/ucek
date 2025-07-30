@@ -1,4 +1,4 @@
-7Admissions (B.Tech)
+Admissions (B.Tech)
 
 ## Regular Admissions
 Admission to Merit and Management Quotas are done by CEE through KEAM.
@@ -6,29 +6,29 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 
 **Document To Be Submitted At The College During Admission:**
 
-1.⁠ ⁠Allotment memo(second phase)
+1.⁠ ⁠Allotment Memo (Second phase)
 
 2.⁠ ⁠Data Sheet
 
-3.⁠ ⁠SSLC/10TH certificate Original 
+3.⁠ ⁠SSLC/10TH certificate (Original)
 
-4.⁠ ⁠Plus two/12th certificate Original 
+4.⁠ Plus two certificate (Original)
 
-5.⁠ ⁠TC (Plus two/12th/from the institution last attended) Original 
+5.⁠ ⁠TC (Plus two) from the institution last attended (Original)
 
-6.⁠ ⁠COURSE AND CONDUCT CERTIFICATE Original 
+6.⁠ ⁠Course And Conduct Certificate (Original)
 
-7.⁠ ⁠PHYSICAL FITNESS
+7.⁠ ⁠Physical Fitness Certificate 
 
-8.⁠ ⁠Migration certificate ( Original/Digilocker)
+8.⁠ ⁠Migration certificate (Original/Digilocker)
 
-9.⁠ ⁠Cast certificate mandatory for reserved category students.
+9.⁠ ⁠Caste certificate - mandatory for reserved category students.
 
 10.⁠ ⁠Receipt of Fee remitted to CEE.
 
-11.⁠ ⁠All other documents have been updated for CEE, please bring them at the time of admission.
+11.⁠ ⁠All other documents uploaded to CEE.
 
-**If the students have any reservations, submit that certificates too.**
+**If the students have any reservations, submit all relevant certificates too.**
 
 ## NRI Admissions
 
