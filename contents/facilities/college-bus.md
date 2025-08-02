@@ -3,7 +3,7 @@ COLLEGE BUS
 
   <div style="font-size: 15px;">
     <p>
-      The College Transport Division at UCEK ensures safe and convenient commuting for students and staff through two well-maintained buses that cover key areas across Thiruvananthapuram city. Students can avail College bus facility by taking passes for one month. Occasional users may travel by purchasing a ₹15 ticket per ride. Operated under the supervision of college authorities, the transport service guarantees punctuality and reliability, and the buses are also available for special purpose for students and staff.
+      The College Transport Division at UCEK ensures safe and convenient commuting for students and staff through two well-maintained buses that cover key areas across Thiruvananthapuram city. Students can avail College bus facility by taking passes for one month. Occasional users may travel by purchasing a ₹25 ticket per ride. Operated under the supervision of college authorities, the transport service guarantees punctuality and reliability, and the buses are also available for special purpose for students and staff.
       </p>
   </div>
 
