@@ -170,7 +170,7 @@ const SearchComponent = () => {
                                 </div>
                             ) : query.trim() ? (
                                 <div className="px-4 py-8 text-center text-gray-500">
-                                    <p>No results found for "{query}"</p>
+                                    <p>No results found for &quot;{query}&quot;</p>
                                     <p className="text-sm mt-2">Try searching for specific topics like:</p>
                                     <div className="flex flex-wrap justify-center gap-2 mt-3">
                                         {['admissions', 'departments', 'facilities', 'clubs', 'faculty'].map(suggestion => (
@@ -192,9 +192,9 @@ const SearchComponent = () => {
                                     <p>Start typing to search the entire website...</p>
                                     <p className="text-sm mt-2">Search for admissions, departments, facilities, clubs, faculty, and more</p>
                                     <div className="flex flex-wrap justify-center gap-2 mt-3">
-                                        <span className="text-xs bg-gray-100 px-2 py-1 rounded">Try: "cse"</span>
-                                        <span className="text-xs bg-gray-100 px-2 py-1 rounded">Try: "placement"</span>
-                                        <span className="text-xs bg-gray-100 px-2 py-1 rounded">Try: "library"</span>
+                                        <span className="text-xs bg-gray-100 px-2 py-1 rounded">Try: &quot;cse&quot;</span>
+                                        <span className="text-xs bg-gray-100 px-2 py-1 rounded">Try: &quot;placement&quot;</span>
+                                        <span className="text-xs bg-gray-100 px-2 py-1 rounded">Try: &quot;library&quot;</span>
                                     </div>
                                 </div>
                             )}
