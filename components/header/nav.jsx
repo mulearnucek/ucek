@@ -11,6 +11,7 @@ import {
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import SearchComponent from "@/components/ui/search";
 
 const Nav = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -101,12 +102,23 @@ const Nav = () => {
           </div>
         </div>
         </Link>
+        
+        {/* Search Component */}
+        <div className="hidden md:block">
+          <SearchComponent />
+        </div>
+        
         <nav className="flex-wrap justify-evenly gap-3 flex md:space-x-10 mt-4 md:mt-0 text-[14px] md:text-[16px] font-[500]">
           {pathname != "/" && (
             <Link href="/" className="text-gray-600 hover:text-gray-800">
               Home
             </Link>
           )}
+          
+          {/* Mobile Search */}
+          <div className="md:hidden">
+            <SearchComponent />
+          </div>
           <div className="relative">
             <button
               ref={setButtonRef(1)}
