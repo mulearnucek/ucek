@@ -107,13 +107,14 @@ const SearchComponent = () => {
                 disabled={isExpanded}
             >
                 <Search size={18} />
+                <span>Search</span>
             </button>
 
             {/* Expandable Search Container - Responsive Direction */}
             {isExpanded && (
                 <div className={`
                     absolute md:top-full md:right-0 md:mt-2 
-                    max-md:bottom-full max-md:-right-6 max-md:mb-2 
+                    max-md:bottom-full max-md:-right-3 max-md:mb-2 
                     w-80 bg-white border border-gray-300 rounded-lg shadow-lg z-50
                     flex items-center transition-all duration-300 ease-out
                     animate-in md:slide-in-from-top-2 max-md:slide-in-from-bottom-2 fade-in-0
