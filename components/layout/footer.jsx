@@ -44,8 +44,8 @@ const Footer = () => {
             <div>
               <p className="text-center">
                 Designed and Developed by{" "}
-                <a href="https://mulearn-ucek.netlify.app/">
-                  <u>MuLearn Ucek</u>
+                <a href="https://mulearn.uck.ac.in">
+                  <u>μLearn UCEK</u>
                 </a>
               </p>
             </div>

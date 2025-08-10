@@ -1,14 +1,15 @@
 'use client';
 
 import { useEffect } from 'react';
-import Admission from '@/public/img/new-admission.jpg';
 import Image from 'next/image';
 
-const Popup = () => {
+const Popup = ({image}) => {
     useEffect(() => {
         const overlay = document.getElementById('overlay');
         const popupBox = document.getElementById('popupBox');
         const closeBtn = document.getElementById('closeBtn');
+
+        
 
         const showPopup = () => {
             overlay?.classList.remove('opacity-0', 'pointer-events-none');
@@ -28,16 +29,14 @@ const Popup = () => {
             document.documentElement.style.overflow = 'auto';
         };
 
-        const hasCookie = document.cookie.includes('uimonkCookie=uimonk');
+        const hasCookie = document.cookie.includes('popupshown=true');
         hasCookie ? hidePopup() : showPopup();
 
         const handleClose = () => {
-            document.cookie = "uimonkCookie=uimonk; max-age=" + 60 * 30;
-            if (document.cookie.includes('uimonkCookie=uimonk')) {
+            document.cookie = "popupshown=true; max-age=" + 60 * 30;
+            if (document.cookie.includes('popupshown=true')) {
                 hidePopup();
-            } else {
-                alert("Cookie not created");
-            }
+            } 
         };
 
         closeBtn?.addEventListener('click', handleClose);
@@ -65,7 +64,7 @@ const Popup = () => {
                     }}>
                         <a href="/admissions/btech">
                         <Image
-                            src={Admission}
+                            src={image}
                             alt="NRI Admissions 2025 Open"
                             fill
                             className="object-contain rounded-xl"

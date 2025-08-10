@@ -15,7 +15,7 @@ import Popup from '@/components/layout/popup';
 export default function Home() {
   return (
     <>
-      <Popup />
+      {/* <Popup /> */}
       <Topnav />
       <Nav />
       <HeroSlider />

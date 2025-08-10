@@ -148,7 +148,7 @@ const SearchComponent = () => {
 
             {/* Results Dropdown - Responsive positioning */}
             {isExpanded && (query.length > 0 || results.length > 0) && (
-                <div className="absolute md:top-full md:right-0 md:mt-16 max-md:bottom-full max-md:right-0 max-md:mb-16 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-40 max-h-80 overflow-y-auto">
+                <div className="absolute md:top-full md:right-0 md:mt-16 max-md:top-full max-md:-right-6 max-md:mb-16 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-40 max-h-80 overflow-y-auto">
                     {isLoading ? (
                         <div className="px-4 py-6 text-center text-gray-500">
                             <div className="animate-pulse">Searching...</div>

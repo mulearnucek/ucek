@@ -16,7 +16,7 @@ function getAnnouncementIcon(announcementType: string, size: number = 32) {
       return <ScrollText size={size} />;
     case "News":
       return <BellPlus size={size}/>;
-    case "Admission":
+    case "Admissions":
       return <BellPlus  size={size}/>;
     default:
       return <BellPlus size={size}/>;
@@ -71,93 +71,101 @@ export function ExpandableCard({ cards }: any) {
       </AnimatePresence>
       <AnimatePresence>
         {active && typeof active === "object" ? (
-          <div className="fixed inset-0 flex items-start justify-center z-[100] bg-black/20 overflow-y-auto">
-            <motion.button
-              key={`button-${active.title}-${id}`}
-              layout
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-              }}
-              exit={{
-                opacity: 0,
-                transition: {
-                  duration: 0.05,
-                },
-              }}
-              className="flex z-50 absolute top-2 right-4 shadow-md shadow-slate-300 items-center justify-center bg-white rounded-full h-8 w-8"
-              onClick={() => setActive(null)}
-            >
-              <CloseIcon />
-            </motion.button>
-            <motion.div
-              layoutId={`card-${id}`}
+          <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black/20 overflow-y-auto">
+            <div
               ref={ref}
-              className="fixed inset-0
-              flex flex-col
-              bg-gray-50
-              overflow-auto"
+              className="flex items-center justify-center px-2 py-6 md:py-12 w-full h-full fixed inset-0"
             >
-               <motion.div layoutId={`image-${id}`} className="w-full border rounded-lg md:m-4 p-20 flex justify-center items-center">
-                  {getAnnouncementIcon(active.icon, 64)}
-              </motion.div>
+              <motion.div
+                layoutId={`card-${active.title}-${id}`}
+                className="bg-gray-50 rounded-xl shadow-lg w-full max-w-lg md:max-w-2xl flex flex-col overflow-hidden relative"
+              >
+                {/* Close button inside the card */}
+                <motion.button
+                  key={`button-${active.title}-${id}`}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0, transition: { duration: 0.05 } }}
+                  className="flex z-50 absolute top-3 right-3 shadow-md shadow-slate-300 items-center justify-center bg-white rounded-full h-8 w-8"
+                  onClick={() => setActive(null)}
+                  aria-label="Close"
+                >
+                  <CloseIcon />
+                </motion.button>
+                <div className="w-full flex justify-center items-center border-b pb-4 pt-4">
+                  {getAnnouncementIcon(active.icon, active.image ? 40 : 64)} <span className="text-lg md:text-xl font-bold ml-3 text-gray-700"> {active.icon}</span>
+                </div>
 
-              <div>
-                <div className="flex justify-between items-start p-4">
-                  <div className="">
-                    <motion.h3
-                      layoutId={`title-${id}`}
-                      className="font-bold text-neutral-700 "
+                {/* Content */}
+                <div className="flex flex-col gap-2 p-4 md:p-8 overflow-y-auto max-h-[70vh]">
+                  <h3 className="font-bold text-neutral-700 text-lg md:text-2xl">
+                    {active.title}
+                  </h3>
+                  <p className="text-neutral-600 text-xs md:text-sm">
+                    Posted on {getDateTime(active.date).toLocaleDateString()}
+                  </p>
+                  <div className="text-neutral-700 text-sm md:text-base prose max-w-none pt-2">
+                    <Markdown
+                      remarkPlugins={[remarkGfm]}
+                      rehypePlugins={[rehypeRaw]}
+                      className={"prose"}
                     >
-                      {active.title}
-                    </motion.h3>
-                    <motion.p
-                      layoutId={`date-${id}`}
-                      className="text-neutral-600 text-sm"
-                    >
-                     Posted on {getDateTime(active.date).toLocaleDateString()}
-                    </motion.p>
+                      {active.content}
+                    </Markdown>
                   </div>
+                  {/* Image below content if exists */}
+                  {active.image && (
+                    <div className="w-full flex justify-center items-center mt-6">
+                      <Image
+                        src={active.image}
+                        alt={active.title}
+                        className="object-contain rounded"
+                        priority
+                        width={600}
+                        height={600}
+                        sizes="(max-width: 768px) 100vw, 600px"
+                        style={{ maxHeight: "50vh", width: "auto", height: "auto" }}
+                      />
+                    </div>
+                  )}
                 </div>
-                <div className="pt-4 relative px-4">
-                  <motion.div
-                    layout
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                    className="text-neutral-600 text-xs md:text-sm lg:text-base  md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto   [scrollbar-width:none] [-ms-overflow-style:none] [-webkit-overflow-scrolling:touch]"
-                  >
-                   <Markdown  remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}  className={"prose"}>{active.content}</Markdown>
-                  </motion.div>
-                </div>
-              </div>
-            </motion.div>
+              </motion.div>
+            </div>
           </div>
         ) : null}
       </AnimatePresence>
       <ul className="max-w-2xl mx-auto w-full gap-4">
         {cards.map((card: any) => (
           <motion.div
-            layoutId={`card-${id}`}
-            key={`card-${id}`}
+            layoutId={`card-${card.title}-${id}`}
+            key={`card-${card.title}-${id}`}
             onClick={() => setActive(card)}
             className="p-4 flex flex-col md:flex-row justify-between items-center border hover:bg-neutral-50 rounded-xl cursor-pointer"
           >
             <div className="flex gap-4 flex-row items-center">
-              <motion.div layoutId={`image-${id}`} className={`text-2xl md:h-14 md:w-14 flex justify-center items-center ${card.important ? 'animate-pulse' : ''}`}>
-                  {getAnnouncementIcon(card.icon)}
-              </motion.div>
+                <motion.div layoutId={`image-${card.title}-${id}`} className={`text-2xl md:h-14 md:w-14 flex justify-center items-center ${card.important ? '' : ''}`}>
+                  {/* Shows new badge if published within 1 month */}
+                  {(() => {
+                  const publishedDate = getDateTime(card.date);
+                  const now = new Date();
+                  const oneMonthAgo = new Date();
+                  oneMonthAgo.setMonth(now.getMonth() - 1);
+                  return publishedDate > oneMonthAgo ? (
+                    <span className="ml-2 px-2 py-0.5 rounded-full bg-green-500 text-white text-xs font-semibold animate-bounce">
+                    New
+                    </span>
+                  ) : getAnnouncementIcon(card.icon);
+                  })()}
+                </motion.div>
               <div className="">
                 <motion.h3
-                  layoutId={`title-${id}`}
+                  layoutId={`title-${card.title}-${id}`}
                   className={`font-medium text-neutral-800  text-center md:text-left ${card.important ? 'text-red-500 animate-' : ''}`} 
                 >
                   {card.title}
                 </motion.h3>
                 <motion.p
-                  layoutId={`date-${id}`}
+                  layoutId={`date-${card.title}-${id}`}
                   className="text-neutral-600  text-sm text-center md:text-left"
                 >
                   Posted on {getDateTime(card.date).toLocaleDateString()}
