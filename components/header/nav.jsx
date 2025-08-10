@@ -103,11 +103,6 @@ const Nav = () => {
         </div>
         </Link>
         
-        {/* Search Component */}
-        <div className="hidden md:block">
-          <SearchComponent />
-        </div>
-        
         <nav className="flex-wrap justify-evenly gap-3 flex md:space-x-10 mt-4 md:mt-0 text-[14px] md:text-[16px] font-[500]">
           {pathname != "/" && (
             <Link href="/" className="text-gray-600 hover:text-gray-800">
@@ -116,9 +111,6 @@ const Nav = () => {
           )}
           
           {/* Mobile Search */}
-          <div className="md:hidden">
-            <SearchComponent />
-          </div>
           <div className="relative">
             <button
               ref={setButtonRef(1)}
@@ -244,6 +236,9 @@ const Nav = () => {
                 General Departments
               </Link>
             </div>
+          </div>
+          <div className="md:hidden">
+            <SearchComponent />
           </div>
           <div className="relative">
             <button
@@ -490,6 +485,11 @@ const Nav = () => {
                 Contact Us
               </Link>
             </div>
+          </div>
+
+          {/* Search Component - Positioned next to About Us */}
+          <div className="hidden md:block">
+            <SearchComponent />
           </div>
         </nav>
       </div>

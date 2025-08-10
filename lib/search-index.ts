@@ -833,61 +833,177 @@ export const siteSearchIndex: SiteContent[] = [
   }
 ];
 
-// Search function that matches patterns and returns relevant results
+// Search function that matches patterns and returns relevant results with improved scoring
 export function searchSiteContent(query: string): SiteContent[] {
   if (!query.trim()) return [];
 
-  const queryLower = query.toLowerCase();
+  const queryLower = query.toLowerCase().trim();
   const results: Array<SiteContent & { score: number }> = [];
 
   siteSearchIndex.forEach(page => {
     let score = 0;
+    const titleLower = page.title.toLowerCase();
+    const categoryLower = page.category.toLowerCase();
 
-    // Title match (highest priority)
-    if (page.title.toLowerCase().includes(queryLower)) {
-      score += 10;
+    // HIGHEST PRIORITY: Exact title match or very close match
+    if (titleLower === queryLower) {
+      score += 100; // Perfect match
+    } else if (titleLower.includes(queryLower) && queryLower.length > 2) {
+      score += 50; // Title contains query
     }
 
-    // Keywords match (high priority)
-    page.keywords.forEach(keyword => {
-      if (keyword.toLowerCase().includes(queryLower) || queryLower.includes(keyword.toLowerCase())) {
-        score += 5;
+    // SUPER HIGH PRIORITY: Department code exact matches (must be first)
+    const departmentMappings: { [key: string]: string[] } = {
+      'cse': ['computer science', 'computer science engineering', 'computer science & engineering'],
+      'ece': ['electronics communication', 'electronics & communication', 'electronics communication engineering'],
+      'it': ['information technology'],
+      'gen': ['general', 'general engineering', 'general departments']
+    };
+
+    // Special handling for exact department code matches
+    if (departmentMappings[queryLower]) {
+      const matchingDept = departmentMappings[queryLower];
+      if (categoryLower === 'departments' && (
+        titleLower.includes(queryLower) || 
+        matchingDept.some(name => titleLower.includes(name))
+      )) {
+        score += 150; // Massive boost for exact department code match
+      }
+    }
+
+    // HIGH PRIORITY: Direct page/section name matches
+    // Check if query matches department codes or full names
+    Object.entries(departmentMappings).forEach(([code, fullNames]) => {
+      if (queryLower === code) {
+        // Perfect department code match (already handled above with higher score)
+        if (categoryLower !== 'departments' && (titleLower.includes(code) || fullNames.some(name => titleLower.includes(name)))) {
+          score += 60; // Lower score for non-department pages mentioning dept codes
+        }
+      } else if (fullNames.some(name => 
+        queryLower === name || 
+        queryLower.includes(name) || 
+        name.includes(queryLower)
+      )) {
+        if (categoryLower === 'departments') {
+          score += 75; // Department name match in departments category
+        } else {
+          score += 25; // Department mentioned elsewhere
+        }
       }
     });
 
-    // Content match (medium priority)
-    page.content.forEach(content => {
-      if (content.toLowerCase().includes(queryLower)) {
-        score += 2;
+    // HIGH PRIORITY: Category-specific direct matches
+    const categoryKeywords: { [key: string]: string[] } = {
+      'admissions': ['admission', 'btech', 'keam', 'entrance', 'fee'],
+      'departments': ['department', 'engineering', 'faculty', 'program'],
+      'facilities': ['facility', 'library', 'canteen', 'bus', 'wifi', 'health'],
+      'clubs': ['club', 'society', 'organization', 'ieee', 'nss', 'foss'],
+      'cells': ['cell', 'committee', 'grievance', 'placement']
+    };
+
+    // Boost score if query matches category and is in that category
+    Object.entries(categoryKeywords).forEach(([cat, keywords]) => {
+      if (categoryLower === cat && keywords.some(kw => 
+        queryLower === kw || queryLower.includes(kw) || kw.includes(queryLower)
+      )) {
+        score += 60;
       }
     });
 
-    // Fuzzy/partial matching for letter patterns
-    const titleWords = page.title.toLowerCase().split(' ');
-    const keywordMatches = page.keywords.filter(keyword => 
-      keyword.toLowerCase().startsWith(queryLower) || 
-      keyword.toLowerCase().includes(queryLower)
+    // MEDIUM-HIGH PRIORITY: URL path matching (direct routing)
+    const urlParts = page.url.toLowerCase().split('/').filter(part => part);
+    if (urlParts.some(part => part === queryLower || part.includes(queryLower))) {
+      score += 45;
+    }
+
+    // MEDIUM PRIORITY: Keywords exact match
+    const exactKeywordMatch = page.keywords.find(keyword => 
+      keyword.toLowerCase() === queryLower
     );
-    
-    if (keywordMatches.length > 0) {
-      score += 3;
+    if (exactKeywordMatch) {
+      score += 40;
     }
 
-    // Check if any word in title starts with query
+    // MEDIUM PRIORITY: Keywords partial match
+    const partialKeywordMatches = page.keywords.filter(keyword => {
+      const keywordLower = keyword.toLowerCase();
+      return keywordLower.includes(queryLower) || queryLower.includes(keywordLower);
+    });
+    score += partialKeywordMatches.length * 15;
+
+    // MEDIUM PRIORITY: Title word starts with query
+    const titleWords = titleLower.split(/[\s&-]+/);
     titleWords.forEach(word => {
-      if (word.startsWith(queryLower)) {
-        score += 4;
+      if (word.startsWith(queryLower) && queryLower.length >= 2) {
+        score += 30;
       }
     });
 
+    // LOWER PRIORITY: Content matches (with special handling for common words)
+    let contentMatches = 0;
+    page.content.forEach(content => {
+      const contentLower = content.toLowerCase();
+      if (contentLower.includes(queryLower)) {
+        contentMatches++;
+        // Special penalty for "it" appearing in non-IT department contexts
+        if (queryLower === 'it' && categoryLower !== 'departments') {
+          // Much lower score for "it" in content when not IT department
+          score += 1;
+        } else if (contentLower.startsWith(queryLower)) {
+          score += 8;
+        } else {
+          score += 3;
+        }
+      }
+    });
+
+    // Bonus for multiple content matches (relevance)
+    if (contentMatches > 3) {
+      score += 10;
+    } else if (contentMatches > 1) {
+      score += 5;
+    }
+
+    // SPECIAL CASES: Boost for specific high-value pages
+    const importantPages = [
+      'admissions', 'departments', 'computer science', 'electronics', 'information technology'
+    ];
+    
+    if (importantPages.some(important => 
+      titleLower.includes(important) && queryLower.includes(important)
+    )) {
+      score += 20;
+    }
+
+    // PENALTY: Reduce score for overly generic matches, but not for department codes
+    const validDeptCodes = ['cse', 'ece', 'it', 'gen'];
+    if (queryLower.length === 1 && !validDeptCodes.includes(queryLower)) {
+      score = Math.max(0, score - 20);
+    }
+    
+    // Additional penalty for very common short words (except department codes)
+    if (queryLower.length === 2 && !validDeptCodes.includes(queryLower)) {
+      const commonWords = ['is', 'in', 'of', 'to', 'or', 'be', 'we', 'he', 'me'];
+      if (commonWords.includes(queryLower)) {
+        score = Math.max(0, score - 15);
+      }
+    }
+
+    // Only include results with meaningful scores
     if (score > 0) {
       results.push({ ...page, score });
     }
   });
 
-  // Sort by score (highest first) and return top 8 results
+  // Sort by score (highest first), then by title length (shorter = more specific)
   return results
-    .sort((a, b) => b.score - a.score)
+    .sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+      // Secondary sort: prefer shorter, more specific titles
+      return a.title.length - b.title.length;
+    })
     .slice(0, 8)
     .map(({ score, ...page }) => page);
 }
