@@ -109,12 +109,14 @@ const SearchComponent = () => {
                 <Search size={18} />
             </button>
 
-            {/* Expandable Search Container - Expands Upward */}
+            {/* Expandable Search Container - Responsive Direction */}
             {isExpanded && (
                 <div className={`
-                    absolute bottom-full right-0 mb-2 w-80 bg-white border border-gray-300 rounded-lg shadow-lg z-50
+                    absolute md:top-full md:right-0 md:mt-2 
+                    max-md:bottom-full max-md:-right-6 max-md:mb-2 
+                    w-80 bg-white border border-gray-300 rounded-lg shadow-lg z-50
                     flex items-center transition-all duration-300 ease-out
-                    animate-in slide-in-from-bottom-2 fade-in-0
+                    animate-in md:slide-in-from-top-2 max-md:slide-in-from-bottom-2 fade-in-0
                 `}>
                     <div className="flex items-center flex-1 px-3 py-2">
                         <Search size={18} className="text-gray-400 mr-3" />
@@ -144,9 +146,9 @@ const SearchComponent = () => {
                 </div>
             )}
 
-            {/* Results Dropdown - Above the expanded search input */}
+            {/* Results Dropdown - Responsive positioning */}
             {isExpanded && (query.length > 0 || results.length > 0) && (
-                <div className="absolute top-full right-0 mb-16 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-40 max-h-80 overflow-y-auto">
+                <div className="absolute md:top-full md:right-0 md:mt-16 max-md:bottom-full max-md:right-0 max-md:mb-16 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-40 max-h-80 overflow-y-auto">
                     {isLoading ? (
                         <div className="px-4 py-6 text-center text-gray-500">
                             <div className="animate-pulse">Searching...</div>

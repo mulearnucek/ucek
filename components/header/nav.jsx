@@ -103,21 +103,22 @@ const Nav = () => {
         </div>
         </Link>
         
-        <nav className="flex-wrap justify-evenly gap-3 flex md:space-x-10 mt-4 md:mt-0 text-[14px] md:text-[16px] font-[500]">
-          {pathname != "/" && (
-            <Link href="/" className="text-gray-600 hover:text-gray-800">
-              Home
-            </Link>
-          )}
-          
-          {/* Mobile Search */}
-          <div className="relative">
-            <button
-              ref={setButtonRef(1)}
-              onClick={() => handleDropdownToggle("cells")}
-              className="text-gray-600 hover:text-gray-800 flex items-center"
-            >
-              Cells & Committes
+        {/* Navigation Container with Border */}
+        <div className="w-full bg-white p-3 mt-4 md:mt-0 mx-2 md:mx-4">
+          <nav className="flex-wrap justify-evenly gap-3 flex md:space-x-10 text-[14px] md:text-[16px] font-[500]">
+            {pathname != "/" && (
+              <Link href="/" className="text-gray-600 hover:text-gray-800">
+                Home
+              </Link>
+            )}
+            
+            <div className="relative">
+              <button
+                ref={setButtonRef(1)}
+                onClick={() => handleDropdownToggle("cells")}
+                className="text-gray-600 hover:text-gray-800 flex items-center"
+              >
+                Cells & Committes
               <svg
                 className="w-3 h-3 ml-1"
                 fill="none"
@@ -236,9 +237,6 @@ const Nav = () => {
                 General Departments
               </Link>
             </div>
-          </div>
-          <div className="md:hidden">
-            <SearchComponent />
           </div>
           <div className="relative">
             <button
@@ -487,11 +485,17 @@ const Nav = () => {
             </div>
           </div>
 
+          {/* Mobile Search Component */}
+          <div className="md:hidden">
+            <SearchComponent />
+          </div>
+
           {/* Search Component - Positioned next to About Us */}
           <div className="hidden md:block">
             <SearchComponent />
           </div>
         </nav>
+        </div>
       </div>
       <div className="md:h-[50px] z-10 pb-2 sm:pb-0 bg-white border-t-[1.8px] border-[#2D3E50] w-full flex items-center ">
         <div className="w-full md:px-4 md:py-0 mt-2 md:mt-0 flex flex-wrap justify-center md:justify-evenly ">
