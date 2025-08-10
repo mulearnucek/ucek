@@ -134,16 +134,16 @@ export function ExpandableCard({ cards }: any) {
           </div>
         ) : null}
       </AnimatePresence>
-      <ul className="max-w-2xl mx-auto w-full gap-4">
-        {cards.map((card: any) => (
+      <ul className="max-w-2xl mx-auto w-full flex flex-col gap-4">
+        {cards.map((card: any, index: number) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
             key={`card-${card.title}-${id}`}
             onClick={() => setActive(card)}
-            className="p-4 flex flex-col md:flex-row justify-between items-center border hover:bg-neutral-50 rounded-xl cursor-pointer"
+            className="p-3 flex flex-col md:flex-row justify-between items-center border hover:bg-neutral-50 rounded-xl cursor-pointer"
           >
             <div className="flex gap-4 flex-row items-center">
-                <motion.div layoutId={`image-${card.title}-${id}`} className={`text-2xl md:h-14 md:w-14 flex justify-center items-center ${card.important ? '' : ''}`}>
+                <motion.div layoutId={`image-${card.title}-${id}`} className={`text-lg md:h-10 md:w-10 flex justify-center items-center ${card.important ? '' : ''}`}>
                   {/* Shows new badge if published within 1 month */}
                   {(() => {
                   const publishedDate = getDateTime(card.date);
@@ -160,13 +160,13 @@ export function ExpandableCard({ cards }: any) {
               <div className="">
                 <motion.h3
                   layoutId={`title-${card.title}-${id}`}
-                  className={`font-medium text-neutral-800  text-center md:text-left ${card.important ? 'text-red-500 animate-' : ''}`} 
+                  className={`font-medium text-neutral-800 text-sm md:text-base text-center md:text-left ${card.important ? 'text-red-500 animate-' : ''}`} 
                 >
                   {card.title}
                 </motion.h3>
                 <motion.p
                   layoutId={`date-${card.title}-${id}`}
-                  className="text-neutral-600  text-sm text-center md:text-left"
+                  className="text-neutral-600 text-xs md:text-sm text-center md:text-left"
                 >
                   Posted on {getDateTime(card.date).toLocaleDateString()}
                 </motion.p>
