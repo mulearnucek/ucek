@@ -27,7 +27,10 @@ const Announcement = () => {
   useEffect(() => {
     getAnnouncements().then((data) => {
       const temp: Card[] = []
-      data.map((item) => {
+      // Limit to maximum 5 announcements
+      const limitedData = data.slice(0, 4);
+      
+      limitedData.map((item) => {
         temp.push({
           date: item[0],
           title: item[3],
@@ -56,11 +59,13 @@ const Announcement = () => {
         <h2 className="text-[2rem] font-bold flex items-center mb-6">
           <span className="w-2 h-6 bg-blue-500 mr-2"></span> Announcements
         </h2>
-        {loading ? <Skeleton className="w-full h-24 rounded-lg bg-[#e7e7e7dc]" /> :
-        cards.length == 0? <div className="flex justify-center items-center flex-col gap-2"> <BellOff size={44}/> No Announcements so far.</div> : <ExpandableCard cards={cards} />}
+        <div className="w-full">
+          {loading ? <Skeleton className="w-full h-24 rounded-lg bg-[#e7e7e7dc]" /> :
+          cards.length == 0? <div className="flex justify-center items-center flex-col gap-2"> <BellOff size={44}/> No Announcements so far.</div> : <ExpandableCard cards={cards} />}
+        </div>
       </div>
 
-      <div className="w-full md:w-2/3 mt-4 md:mt-10 rounded  md:p-24">
+      <div className="w-full md:w-1/2 mt-4 md:mt-0 rounded md:p-8">
         <p className="text-justify text-sm md:text-base lg:text-lg">
           The college was established in the year 2000 and is functioning in the
           Golden Jubilee Complex of the Kerala University in the Kariavattom
