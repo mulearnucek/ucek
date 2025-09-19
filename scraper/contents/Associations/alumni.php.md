@@ -16,7 +16,7 @@ The association extends support and financial aid to placement activities and pe
 <h2><b>COMMITTEE MEMBERS </b></h2>
 <table border="1" cellpadding="8" style="border-collapse:collapse;">
 <tr><td><strong>Executive Members</strong></td><td><strong>Designation</strong></td><td><strong>Contact Number</strong></td><td><strong>E-mail</strong></td></tr>
-<tr><td>Dr. Bisharathu Beevi A.</td><td>President(Principal) </td><td>9496102279 </td></tr>
+<tr><td>Saina A R.</td><td>President(Principal incharge) </td><td>9496102279 </td></tr>
 <tr><td>KrishnaJ S</td><td>Secretary ,Asst Professor,Dept of Information Technology</td><td>8893788093</td><td>jskrishna87@gmail.com</td></tr>
 <tr><td>MinuJ Mohan          </td><td>Joint Secretary ,Asst Professor,Dept of Computer science</td><td>9746081192</td><td>Minu.mohan90@gmail.com</td></tr>
 <tr><td>Sajitha Rani G L </td><td>Treasurer,Asst Professor,Dept of Electronics and Communication</td><td>9497852427</td><td>sajithaprem@gmail.com</td></tr>
