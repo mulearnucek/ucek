@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Principal from "@/public/img/administrative/principal.png";
+import Principal from "@/public/img/administrative/principal.jpg";
 import Chancellor from "@/public/img/administrative/chancellor.jpg";
 import ProChancellor from "@/public/img/administrative/pro_chancellor.jpg";
 import ViceChancellor from "@/public/img/administrative/vice_chancellor.jpg";
@@ -40,8 +40,8 @@ const data = {
     {
       id: 1,
       src: Principal,
-      name: "Dr. Bisharathu Beevi A",
-      position: "Principal",
+      name: "Saina A R",
+      position: "Principal incharge",
       org: "University College of Engineering",
     },
   ],

@@ -13,7 +13,7 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
 
 | Executive Members | Designation | Contact Number |
 | --- | --- | --- |
-| Dr. Bisharathu Beevi A. | Principal | 9496102279 |
+| Saina A R. | Principal incharge | 9496102279 |
 | Sri.M.B Reghunadan Nair | Vice President | 9744413723 |
 | Smt. Sabeena A.S(Secretary ) | Asst Professor,Dept of Information Technology | 9946559271 |
 | Smt. Gee Vargeese Panicker(Joint Secretary) | Executive Member,S6 CSE | 9946980511 |
