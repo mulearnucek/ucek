@@ -16,7 +16,7 @@ Department of Electronics & Communication Engineering
 
 ### 2025 Updated Curriculum
 
-**[Download 2025 Syllabus (PDF)](#)**
+**[Download 2025 Syllabus (PDF)](/docs/EC%20%20SYLLABUS%202025.pdf)**
 
 <h2><p align="center">
 <a href="/faculties/ece">View Faculty</a>
