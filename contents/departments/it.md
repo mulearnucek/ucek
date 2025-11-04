@@ -19,7 +19,7 @@ To impart skills to come up with socially acceptable solutions to real world pro
 
 ### 2025 Updated Curriculum
 
-**[Download 2025 Syllabus (PDF)](#)**
+**[Download 2025 Syllabus (PDF)](/docs/IT%20%20SYLLABUS%202025.pdf)**
 
 <h2><p align="center">
 <a href="/faculties/it">View Faculty</a>

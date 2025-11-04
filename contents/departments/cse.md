@@ -30,7 +30,7 @@ To be in the frontier of the Computer Science and Engineering and to produce glo
 
 ### 2025 Updated Curriculum
 
-**[Download 2025 Syllabus (PDF)](#)**
+**[Download 2025 Syllabus (PDF)](/docs/CSE%20SYLLABUS%202025.pdf)**
 
 <h2><p align="center">
 <a href="/faculties/cse">View Faculty</a>
