@@ -43,11 +43,16 @@ const Nav = () => {
     },
     {
       id: 5,
+      title: "College Magazine",
+      link: "https://heyzine.com/flip-book/4f61d031ca.html",    
+    },
+    {
+      id: 6,
       title: "Faculties",
       link: "/faculties",
     },
     {
-      id: 6,
+      id: 7,
       title: "Contact Us",
       link: "/about/contact",
     },

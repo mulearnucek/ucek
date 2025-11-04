@@ -15,6 +15,12 @@ To impart skills to come up with socially acceptable solutions to real world pro
 |--|--|--|
 | B.Tech| Full-time | 4 years |
 
+## Syllabus
+
+### 2025 Updated Curriculum
+
+**[Download 2025 Syllabus (PDF)](#)**
+
 <h2><p align="center">
 <a href="/faculties/it">View Faculty</a>
 </p>
