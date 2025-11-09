@@ -48,11 +48,16 @@ const Nav = () => {
     },
     {
       id: 6,
+      title: "Gallery",
+      link: "/gallery",    
+    },
+    {
+      id: 7,
       title: "Faculties",
       link: "/faculties",
     },
     {
-      id: 7,
+      id: 8,
       title: "Contact Us",
       link: "/about/contact",
     },
