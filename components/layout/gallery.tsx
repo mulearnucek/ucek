@@ -98,9 +98,9 @@ export default function Gallery() {
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 {/* Text overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-semibold text-lg mb-1">
+                    <h3 className="text-md sm:text-base md:text-lg font-semibold text-white mb-1">
                       {item.title}
                     </h3>
                     <p className="text-white/90 text-sm line-clamp-2">

@@ -1,6 +1,7 @@
 import Gallery from '@/components/layout/gallery'
 import Topnav from '@/components/header/topnav';
 import Nav from '@/components/header/nav';
+import Footer from '@/components/layout/footer';
 
 export default function GalleryPage() {
     return (
@@ -8,6 +9,7 @@ export default function GalleryPage() {
             <Topnav />
             <Nav />
             <Gallery />
+            <Footer />
         </div>
     )
 }

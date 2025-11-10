@@ -23,7 +23,6 @@ export default function Home() {
       <Quick />
       <Whyucek />
       <NewsEvents />
-      <Gallery />
       <AdministrationPanel />
       <MoreUcek />
       <Footer />

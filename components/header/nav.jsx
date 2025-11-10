@@ -519,7 +519,7 @@ const Nav = () => {
                 {item.title}
               </Link>
               {idx < menu.length - 1 && (
-                <span className="mx-2 visible md:hidden text-gray-300">•</span>
+                <span className="mx-1.5 visible md:hidden text-gray-300">•</span>
               )}
             </div>
           ))}
