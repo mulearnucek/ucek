@@ -66,7 +66,7 @@ export default function Gallery() {
 
   if (isLoading) {
     return (
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center py-8">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
@@ -78,7 +78,7 @@ export default function Gallery() {
   }
 
   return (
-    <section className="pb-16 pt-4 bg-gray-50">
+    <section className="pb-16 pt-4">
       <div className="container mx-auto px-4">
 
         {galleryItems.length === 0 ? (
