@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Principal from "@/public/img/administrative/principal.jpg";
+import Principal from "@/public/img/administrative/principal.png";
 import Chancellor from "@/public/img/administrative/chancellor.jpg";
 import ProChancellor from "@/public/img/administrative/pro_chancellor.jpg";
 import ViceChancellor from "@/public/img/administrative/vice_chancellor.jpg";
