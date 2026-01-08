@@ -1,4 +1,4 @@
-Our Principal incharge
+Our Principal
 <div style="width:160px; float:left; margin-right:20px;">
 <img src="/img/administrative/principal.png"/>
 </div>
