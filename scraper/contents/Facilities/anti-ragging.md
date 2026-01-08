@@ -3,7 +3,7 @@
 <p>To prevent ragging in this campus an anti-ragging cell is constituted. In case of any ragging directly contact in person or over phone any of the members. The Anti Ragging Committee consists of The Principal as the chairperson and with the following members </p>
 <table border="1" cellpadding="8" style="border-collapse:collapse;">
 <tr><td><strong>Cell Members</strong></td><td><strong>Contact Details</strong></td></tr>
-<tr><td>Chairman</td><td>Saina A R., Principal incharge </td></tr>
+<tr><td>Chairman</td><td>Dr. Bisharathu Beevi A., Principal </td></tr>
 <tr><td>Representative of Civil Administration </td><td>Counselor, Sreekariam </td></tr>
 <tr><td>Representative of Police Administration </td><td>Sub Inspector of Police, Sreekariam </td></tr>
 <tr><td>JR in campus administration</td><td>N R.Sreela </td></tr>

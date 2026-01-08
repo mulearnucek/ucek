@@ -6,7 +6,7 @@
 <h2><b>The Present Executive Committee </b></h2>
 <table border="1" cellpadding="8" style="border-collapse:collapse;">
 <tr><td><strong>Executive Members</strong></td><td><strong>Designation</strong></td><td><strong>Contact Number</strong></td></tr>
-<tr><td>Saina A R.</td><td>Principal incharge </td><td>9496102279 </td></tr>
+<tr><td>Dr. Bisharathu Beevi A.</td><td>Principal </td><td>9496102279 </td></tr>
 <tr><td>Sri.M.B Reghunadan Nair </td><td>Vice President</td><td>9744413723</td></tr>
 <tr><td>Smt. Sabeena A.S(Secretary )</td><td>Asst Professor,Dept of Information Technology</td><td>9946559271</td></tr>
 <tr><td>Smt. Gee Vargeese Panicker(Joint Secretary)</td><td>Executive Member,S6 CSE</td>

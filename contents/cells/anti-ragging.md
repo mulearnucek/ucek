@@ -8,7 +8,7 @@ To prevent ragging in this campus an anti-ragging cell is constituted. In case o
 
 | # | Member Name | Contact
 | --- | --- | -- |
-| 1 | Saina A R (Principal incharge) | 9496102279
+| 1 | Dr. Bisharathu Beevi A (Principal) | 9496102279
 | 2 | Sri. Binishlal K V | 0471-2592100
 | 3 | Smt. Mini K P | 8281556762
 | 4 | Smt. Sheeja Kumari T | 9496106342

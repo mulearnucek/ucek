@@ -40,8 +40,8 @@ const data = {
     {
       id: 1,
       src: Principal,
-      name: "Saina A R",
-      position: "Principal incharge",
+      name: "Dr. Bisharathu Beevi A",
+      position: "Principal",
       org: "University College of Engineering",
     },
   ],

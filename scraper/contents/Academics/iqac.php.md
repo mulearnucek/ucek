@@ -9,7 +9,7 @@
 <br/>
 <table border="1" style="width:500px">
 <tr><th>Sl. no</th><th>Name</th><th>Designation</th></tr>
-<tr><td>1</td><td>Saina A R</td><td>Principal incharge</td>
+<tr><td>1</td><td>Dr. Bisharathu Beevi A</td><td>Principal</td>
 <tr><td>2</td><td>Mr. Syam Sasankan</td><td>Asst. Professor in CSE</td>
 <tr><td>3</td><td>Mrs. Aswathy V</td><td>Asst. Professor in ECE</td>
 </tr></tr></tr></table>

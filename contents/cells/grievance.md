@@ -7,7 +7,7 @@ The grievances at departmental level are dealt by the concerned mentors and clas
 
 | # | Name | Contact Number |
 | -- | -- | -- |
-1 | Saina A R (Principal incharge)| 9496102279
+1 | Dr. Bisharathu Beevi A (Principal)| 9496102279
 2 | Smt. Shiny A Moses | 9495541174
 3 | Smt. Krishna J S | 8893788093
 4 | Smt. Aswathy V | 9846835893
@@ -17,7 +17,7 @@ The grievances at departmental level are dealt by the concerned mentors and clas
 
 | # | Member Name | Contact Number
 | -- | -- | -- |
-1 | Saina A R (Principal incharge) | 9496102279
+1 | Dr. Bisharathu Beevi A (Principal) | 9496102279
 2 | Smt. Mini K P | 8281556762
 3 | Smt. Sheeja Kumari T | 9496106342
 4 | Smt. Saina AR | 8921890014
