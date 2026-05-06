@@ -10,7 +10,7 @@
 </p>
 <h2>Executive committee</h2>
 <table border="1">
-<tr><td>President</td><td>Dr Bisharathu Beevi A</td><td>Principal</td></tr>
+<tr><td>President</td><td>Indusalini G</td><td>Principal in-charge</td></tr>
 <tr><td>Secretary</td><td>Sruthi G S</td><td>Assistant Professor in Civil Engineering</td></tr>
 <tr><td>Joint Secretary</td><td>Shibu Kumar G L</td><td> Tradesman Sheetmetal </td></tr>
 <tr><td>Treasurer</td><td>Sumisha M S</td><td> Assistant Professor in Computer Science</td></tr>

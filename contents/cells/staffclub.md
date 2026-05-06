@@ -14,7 +14,7 @@ The staff club is formed to facilitate positive interaction between the teachers
 
 |     |  Name  | Designation    |
 | --- | --- | --- |
-| President | Dr Bisharathu Beevi A | Principal |
+| President | Indusalini G | Principal in-charge |
 | Secretary | Sruthi G S | Assistant Professor in Civil Engineering |
 | Joint Secretary | Shibu Kumar G L | Tradesman Sheetmetal |
 | Treasurer | Sumisha M S | Assistant Professor in Computer Science |

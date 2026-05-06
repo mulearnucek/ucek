@@ -368,7 +368,7 @@ export const siteSearchIndex: SiteContent[] = [
       "Special essential services students",
       "Executive Committee guidance control",
       "University Kerala bye-law formulated",
-      "Dr. Bisharathu Beevi Principal",
+      "Indusalini G Principal in-charge",
       "M.B Reghunadan Nair Vice President",
       "Sabeena A.S Secretary Assistant Professor",
       "Gee Vargeese Panicker Joint Secretary",
@@ -378,7 +378,7 @@ export const siteSearchIndex: SiteContent[] = [
       "Contact numbers executive members",
       "Parent teacher interaction forum"
     ],
-    keywords: ["pta", "parent", "teacher", "association", "private", "organization", "parents", "students", "faculties", "forum", "academic", "excellence", "infrastructure", "improvement", "development", "services", "executive", "committee", "guidance", "control", "university", "kerala", "bylaw", "bisharathu", "beevi", "principal", "reghunadan", "nair", "vice", "president", "sabeena", "secretary", "assistant", "professor", "gee", "vargeese", "panicker", "joint", "drishya", "treasurer", "members", "department", "information", "technology", "cse", "ece", "contact", "numbers", "interaction"]
+    keywords: ["pta", "parent", "teacher", "association", "private", "organization", "parents", "students", "faculties", "forum", "academic", "excellence", "infrastructure", "improvement", "development", "services", "executive", "committee", "guidance", "control", "university", "kerala", "bylaw", "indusalini", "principal", "in-charge", "reghunadan", "nair", "vice", "president", "sabeena", "secretary", "assistant", "professor", "gee", "vargeese", "panicker", "joint", "drishya", "treasurer", "members", "department", "information", "technology", "cse", "ece", "contact", "numbers", "interaction"]
   },
   {
     title: "Institution Innovation Council (IIC)",

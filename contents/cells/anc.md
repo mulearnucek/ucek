@@ -14,7 +14,7 @@ The Anti-Narco Club has been constituted to ensure a drug free campus by imposin
 ### Members of Anti-Narco Club
 | Sl. No | Name of Members | Designation |
 | --- | --- | --- |
-| 1   | Dr Bisharath Beevi | Principal |
+| 1   | Indusalini G | Principal in-charge |
 | 2   | Saina A R | UGDean |
 | 3   | Indu Salini G | HOD in Electronics & Communication |
 | 4   | Divya D T | HOD in Computer Science |

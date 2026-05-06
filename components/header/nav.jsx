@@ -163,6 +163,12 @@ const Nav = () => {
                 PTA
               </Link>
               <Link
+                href="/cells/alumini"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Alumni
+              </Link>
+              <Link
                 href="/cells/anti-ragging"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >

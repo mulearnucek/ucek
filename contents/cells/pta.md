@@ -8,31 +8,34 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
 
   
 
-## **The Present Executive Committee**
+## **PTA Executive Committee Members 2025-2026**
 <div class="md-table-wraper" markdown="block">
 
 | Executive Members | Designation | Contact Number |
 | --- | --- | --- |
-| Dr. Bisharathu Beevi A. | Principal | 9496102279 |
-| Sri.M.B Reghunadan Nair | Vice President | 9744413723 |
-| Smt. Sabeena A.S(Secretary ) | Asst Professor,Dept of Information Technology | 9946559271 |
-| Smt. Gee Vargeese Panicker(Joint Secretary) | Executive Member,S6 CSE | 9946980511 |
-| Sri.Drishya S S(Treasurer) | Asst Professor Dept of Information Technology | 9645144222 |
-| Sri.6 Sajan Veloor | Executive Member,S8 ITCSE | 9645144222 |
-| Sri. Ashok kumar | Executive Member,S6CS | 9447427219 |
-| Smt. Subha Menon | Executive Member,S6EC | 9995109270 |
-| Sri. Reghunadan Nair | Executive Member,S4IT | 9744413723 |
-| Sri. Gee Vargeese Panicker | Executive Member,S4CS | 9946980511 |
-| Smt. Beena Y.B | Executive Member,S1S2CS | 9495546577 |
-| Sri. Sunil.T.S | Executive Member,S1S2IT | 9961437163 |
-| Sri.Suresh | Executive Member S12 ECE | 9496734094 |
-| Smt.Sarala Devi | S12 IT | 8848119437 |
-| Smt.Resmi | S12 CSE | 9025950946 |
-| Smt.Saina A R | UG DEAN | 9447218206 |
-| Smt.Sangeetha S Nair | HOD IT | 9447125125 |
-| Smt.Indusalini | HOD ECE | 9388011160 |
-| Smt.Divya D T | HOD CSE | 9656468540 |
-| Smt.Rohini P S | Staff Representative,AP in ECE | 8129602033 |
+| Indusalini G (PTA President) | Principal in-charge | 9388011160 |
+| Beena Thomas (Vice President) | Executive Member S8 CSE | 9562185600 |
+| Sabeena A.S (PTA Secretary) | Asst Professor Dept of Information Technology | 9946559271 |
+| Dr. Jayakumar M (Joint Secretary) | Executive Member S8 IT | 8129485779 |
+| Drishya (Treasurer PTA) | AP in CSE | 9447324434 |
+| Baby | Executive Member S3 ECE | 9947168995 |
+| Ann John | Executive Member S6 CSE | 9446452183 |
+| Sajitha | Executive Member S6 IT | 9605045420 |
+| Noushad | Executive Member S6 ECE | 9497640201 |
+| Shaheer | Executive Member S6 CSE | 9961054036 |
+| Merza Rawthar | Executive Member S4 CSE | 8113849306 |
+| Vinod Krishnan | Executive Member S4 CSE | 8590870359 |
+| Prasad Kumar | Executive Member S4 ECE | 7012821315 |
+| Adv. Aseem Hussain | Executive Member S4 IT | 9846881565 |
+| Lini P H | Executive Member S2 IT | 9447800104 |
+| SajeerKhan | Executive Member S2 ECE | 9746383337 |
+| SureshKumar | Executive Member S2 CSE | 9447450771 |
+| Saina A R | UG DEAN | 9447218206 |
+| Sangeetha S Nair | HOD IT | 9447125125 |
+| Rohini P S | HOD ECE | 8129602033 |
+| Divya D T | HOD CSE | 9656468540 |
+| Bhanu S Nair | HOD General Department | 9895911465 |
+| Rohini P S (Staff Representative) | AP in ECE | 8129602033 |
 
 </div>
 
