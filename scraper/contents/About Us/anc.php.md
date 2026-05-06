@@ -11,7 +11,7 @@
 <h2>Members of Anti-Narco Club</h2>
 <table border="1" cellpadding="8" style="border-collapse:collapse;">
 <tr><td><strong> Sl. No</strong></td><td><strong>Name of Members</strong></td><td><strong>Designation</strong></td></tr>
-<tr><td>1 </td><td> Dr Bisharath Beevi</td><td>Principal</td></tr>
+<tr><td>1 </td><td> Indusalini G</td><td>Principal in-charge</td></tr>
 <tr><td> 2  </td><td> Saina A R </td><td>UGDean</td></tr>
 <tr><td> 3  </td><td> Indu Salini G</td><td>HOD in Electronics &amp; Communication</td></tr>
 <tr><td> 4  </td><td> Divya D T </td><td>HOD in Computer Science</td></tr>

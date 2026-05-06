@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Principal from "@/public/img/administrative/principal.png";
+import Principal from "@/public/img/administrative/principal (2).jpg";
 import Chancellor from "@/public/img/administrative/chancellor.jpg";
 import ProChancellor from "@/public/img/administrative/pro_chancellor.jpg";
 import ViceChancellor from "@/public/img/administrative/vice_chancellor.jpg";
@@ -33,15 +33,15 @@ const data = {
     {
       id: 5,
       src: Registrar,
-      name: "Dr. K S Anil Kumar",
+      name: "Resmi R",
       position: "Registrar",
       org: "University of Kerala",
     },
     {
       id: 1,
       src: Principal,
-      name: "Dr. Bisharathu Beevi A",
-      position: "Principal",
+      name: "Indusalini G",
+      position: "Principal in-charge",
       org: "University College of Engineering",
     },
   ],

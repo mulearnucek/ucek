@@ -11,6 +11,7 @@ import {
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import SearchComponent from "@/components/ui/search";
 
 const Nav = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -42,11 +43,21 @@ const Nav = () => {
     },
     {
       id: 5,
+      title: "College Magazine",
+      link: "https://heyzine.com/flip-book/4f61d031ca.html",    
+    },
+    {
+      id: 6,
+      title: "Gallery",
+      link: "/gallery",    
+    },
+    {
+      id: 7,
       title: "Faculties",
       link: "/faculties",
     },
     {
-      id: 6,
+      id: 8,
       title: "Contact Us",
       link: "/about/contact",
     },
@@ -101,19 +112,23 @@ const Nav = () => {
           </div>
         </div>
         </Link>
-        <nav className="flex-wrap justify-evenly gap-3 flex md:space-x-10 mt-4 md:mt-0 text-[14px] md:text-[16px] font-[500]">
-          {pathname != "/" && (
-            <Link href="/" className="text-gray-600 hover:text-gray-800">
-              Home
-            </Link>
-          )}
-          <div className="relative">
-            <button
-              ref={setButtonRef(1)}
-              onClick={() => handleDropdownToggle("cells")}
-              className="text-gray-600 hover:text-gray-800 flex items-center"
-            >
-              Cells & Committes
+        
+        {/* Navigation Container with Border */}
+        <div className="w-full bg-white p-3 mt-4 md:mt-0 mx-2 md:mx-4">
+          <nav className="flex-wrap justify-evenly gap-3 flex md:space-x-10 text-[14px] md:text-[16px] font-[500]">
+            {pathname != "/" && (
+              <Link href="/" className="text-gray-600 hover:text-gray-800">
+                Home
+              </Link>
+            )}
+            
+            <div className="relative">
+              <button
+                ref={setButtonRef(1)}
+                onClick={() => handleDropdownToggle("cells")}
+                className="text-gray-600 hover:text-gray-800 flex items-center"
+              >
+                Cells & Committes
               <svg
                 className="w-3 h-3 ml-1"
                 fill="none"
@@ -146,6 +161,12 @@ const Nav = () => {
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
                 PTA
+              </Link>
+              <Link
+                href="/cells/alumini"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Alumni
               </Link>
               <Link
                 href="/cells/anti-ragging"
@@ -448,6 +469,12 @@ const Nav = () => {
                 Faculties
               </Link>
               <Link
+                href="https://notes.uck.ac.in/"
+                className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
+              >
+                Notes & Syllabus
+              </Link>
+              <Link
                 href="/about/disclosures"
                 className="flex px-4 text-gray-600 hover:bg-gray-100 gap-2 items-center py-3"
               >
@@ -473,7 +500,18 @@ const Nav = () => {
               </Link>
             </div>
           </div>
+
+          {/* Mobile Search Component */}
+          <div className="md:hidden">
+            <SearchComponent />
+          </div>
+
+          {/* Search Component - Positioned next to About Us */}
+          <div className="hidden md:block">
+            <SearchComponent />
+          </div>
         </nav>
+        </div>
       </div>
       <div className="md:h-[50px] z-10 pb-2 sm:pb-0 bg-white border-t-[1.8px] border-[#2D3E50] w-full flex items-center ">
         <div className="w-full md:px-4 md:py-0 mt-2 md:mt-0 flex flex-wrap justify-center md:justify-evenly ">
@@ -487,7 +525,7 @@ const Nav = () => {
                 {item.title}
               </Link>
               {idx < menu.length - 1 && (
-                <span className="mx-2 visible md:hidden text-gray-300">•</span>
+                <span className="mx-1.5 visible md:hidden text-gray-300">•</span>
               )}
             </div>
           ))}

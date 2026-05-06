@@ -4,6 +4,7 @@ import moment from "moment";
 import { Rye } from "next/font/google";
 
 export const CONTENT_SHEET_ID = "1oTIT-gv8BENbkwrlaYaXg6dEjSndyT2vDWKZnAJO39g"
+// export const CONTENT_SHEET_ID = "1rH270KW2GXvioDlZ3cENzUyxxcQwRrHONvI-yWnfogk"
 export const EVENT_SHEET_ID = "1JF8JCd01dGp1s3iFiriOUHZxlMro63vCAf5Qsm7RNEE"
 // export const EVENT_SHEET_ID = "1E5o-2t50wDfNNN-qwy6Pk2ZLcFzlF8fbQbVMFBkzAbw"
 export const FACULTY_SHEET_ID = "1xz8r0PBP5Z3mdH2VC7oSuumJ5inh0ZIvGANrcPn5Z_E"
@@ -57,10 +58,36 @@ export function getRecentEvents(limit = 10): Promise<string[][]> {
 }
 
 export function getImgLink(link: string) {
-  return (
-    "https://drive.google.com/uc?export=download&id=" +
-    link.replace("https://drive.google.com/open?id=", "")
-  );
+  if (!link || typeof link !== 'string') {
+    return '/placeholder.svg';
+  }
+
+  // Handle different Google Drive URL formats
+  let fileId = '';
+  
+  if (link.includes('drive.google.com/open?id=')) {
+    fileId = link.replace('https://drive.google.com/open?id=', '');
+  } else if (link.includes('drive.google.com/file/d/')) {
+    const match = link.match(/\/file\/d\/([a-zA-Z0-9-_]+)/);
+    fileId = match ? match[1] : '';
+  } else if (link.includes('id=')) {
+    const match = link.match(/id=([a-zA-Z0-9-_]+)/);
+    fileId = match ? match[1] : '';
+  } else {
+    // If it's already a direct link or file ID
+    fileId = link;
+  }
+
+  // Clean up the file ID (remove any trailing parameters)
+  fileId = fileId.split('&')[0].split('?')[0];
+
+  if (!fileId) {
+    return '/placeholder.svg';
+  }
+
+  // Try multiple Google Drive formats to ensure compatibility
+  // Use direct view format which works better for public images
+  return `https://drive.google.com/uc?export=view&id=${fileId}`;
 }
 
 export function getCarouselImages(n = "10"): Promise<string[][]> {
@@ -76,5 +103,13 @@ export function getAnnouncements(): Promise<string[][]> {
     + CONTENT_SHEET_ID
     + "/gviz/tq?tqx=out:csv&sheet=announcements&tq="
     + encodeURIComponent("select * ORDER BY A DESC limit 6");
+  return getData(url)
+}
+
+export function getGalleryItems(): Promise<string[][]> {
+  const url = "https://docs.google.com/spreadsheets/d/"
+    + CONTENT_SHEET_ID
+    + "/gviz/tq?tqx=out:csv&sheet=gallery&tq="
+    + encodeURIComponent("select * ORDER BY A DESC");
   return getData(url)
 }

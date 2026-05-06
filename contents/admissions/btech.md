@@ -5,17 +5,30 @@ Admission to Merit and Management Quotas are done by CEE through KEAM.
 <center><h3>KEAM CODE : UCK</h3></center>
 
 **Document To Be Submitted At The College During Admission:**
-1. Data Sheet of KEAM
-2. Allotment Memo
-3. SSLC Certificate (to prove Date Of Birth)
-4. Transfer Certificate from the Institution last attended and Conduct Certificate
-5. Original Marklist of Higher Secondary or equivalent
-6. Migration Certificate, if required
-7. Receipt of fee remitted to CEE
-8. Eligibility certificate, if required
-9. Physical Fitness Certificate
-10. Originals Of The All Documents And Certificates
-11. DD Taken For The Tution Fee
+
+1.⁠ ⁠Allotment Memo (Second phase)
+
+2.⁠ ⁠Data Sheet
+
+3.⁠ ⁠SSLC/10TH certificate (Original)
+
+4.⁠ Plus two certificate (Original)
+
+5.⁠ ⁠TC (Plus two) from the institution last attended (Original)
+
+6.⁠ ⁠Course And Conduct Certificate (Original)
+
+7.⁠ ⁠Physical Fitness Certificate 
+
+8.⁠ ⁠Migration certificate (Original/Digilocker)
+
+9.⁠ ⁠Caste certificate - mandatory for reserved category students.
+
+10.⁠ ⁠Receipt of Fee remitted to CEE.
+
+11.⁠ ⁠All other documents uploaded to CEE.
+
+**If the students have any reservations, submit all relevant certificates too.**
 
 ## NRI Admissions
 
@@ -46,15 +59,15 @@ To express interest in future vacancies for B.Tech admission under the NRI quota
 
 
 ## Closing Ranks
-Based on KEAM 2023 - Allotment Phase 3.
+Based on KEAM 2025 - Allotment Phase 3.
 
 <div class="md-table-wraper" markdown="block">
 
-| | SM | MG | EW | EZ | MU | BH | LA | DV | VK | BX | KU | KN | SC | ST | 
-|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-Computer Science & Engineering | 23713 | 42477 | 40296 | 34066 | 30464 | 27872 | 36813 | - | 35283 | 28512 | - | 45032 | 47959 | 45421
-|Electronics & Communication Engineering | 48812 | 42345 | 42304 | 38304 | 41952 | 38131 | 39601 | - | 40310 | 28084 | - | - | 47703 | - | - |
-| Information Technology | 49152 | 49152 | 47280 | 43197 | 42305 | 47175| 47175 | - | 44728 | - | - | - | 49072 | - |
+| | SM | MG | EW | FW | EZ | MU | BH | LA | DV | VK | BX | SC | KU | KN | ST |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| Computer Science & Engineering | 27658 | 49437 | 36550 | 14323 | 39428 | 35056 | 31297 | 52055 | 63621 | 34575 | 36633 | 57293 | 66016 | 39219 | - |
+| Electronics & Communication Engineering | 29244 | 55988 | 63824 | 16413 | 44093 | 54775 | 42328 | 57273 | - | - | - | 62548 | - | - | - |
+| Information Technology | 67015 | - | - | 32173 | - | - | - | - | - | - | - | - | - | - | - |
 </div>
 
 SM - State Merit, MG - Management 
@@ -65,10 +78,10 @@ SM - State Merit, MG - Management
 
 <div class="md-table-wraper" markdown="block">
 
-| SEAT | AMOUNT PER YEAR |
-|:---|:---|
-| Merit | **₹36,750/-** |
-| Management | **₹68,250/-** |
+| SEAT | AMOUNT PER YEAR | FIRST YEAR | 
+|:---|:---|:---|
+| Merit | **₹36,750/-** | **₹26,750/-**
+| Management | **₹68,250/-** | **₹58,250/-**
 | NRI | **₹1,05,000/-** |
 </div>
 
@@ -86,5 +99,12 @@ SM - State Merit, MG - Management
 
 </div>
 
+* No tution fee for SC/ST/fee waiver category.
 
-No tution fee for SC/ST/fee waiver category. 
+* All balance amount will be refunded except ₹160/- when opting out from the course.
+
+* Tuition fees and office fees are required to be paid at the time of admission.
+
+* If you are not looking for a higher option then PTA fee and placement fee must be paid at the time of admission itself. Otherwise PTA and placement fee can be paid on the date of commencement of regular classes.
+
+* Please be noted that PTA, placement and office fee must be paid in cash only and is required to remit the exact amount (including changes).

@@ -6,6 +6,18 @@ Department of Electronics & Communication Engineering
 
 <p>For exploring the fast developing engineering field to the maximum extent possible, this department has taken all measures to make available the best facilities.</p>
 
+## Programs Offered
+
+| Program | Type | Duration |
+|--|--|--|
+| B.Tech| Full-time | 4 years |
+
+## Syllabus
+
+### 2025 Updated Curriculum
+
+**[Download 2025 Syllabus (PDF)](/docs/EC%20%20SYLLABUS%202025.pdf)**
+
 <h2><p align="center">
 <a href="/faculties/ece">View Faculty</a>
 </p>

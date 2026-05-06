@@ -83,7 +83,7 @@ College Union
     </li>
     <li>
         <h3 class="text-lg font-semibold">College Union Inauguration</h3>
-        <p>The College Union was officially inaugurated on April 25, 2023, by essential support staff of the college. The event's chief guest was MLA Harindran. The program was chaired by Union Chairman Ajumal T, with greetings from the college principal, Dr. Prof. Bisharat Bibi, the Dean, department heads, and SFI UCE Unit Secretary Vignesh. Vice Chairperson Sradha R. Kurup delivered the vote of thanks.</p>
+        <p>The College Union was officially inaugurated on April 25, 2023, by essential support staff of the college. The event's chief guest was MLA Harindran. The program was chaired by Union Chairman Ajumal T, with greetings from the college Principal in-charge, Indusalini G, the Dean, department heads, and SFI UCE Unit Secretary Vignesh. Vice Chairperson Sradha R. Kurup delivered the vote of thanks.</p>
     </li>
     <li>
         <h3 class="text-lg font-semibold">Dance Club Inauguration</h3>
@@ -243,9 +243,41 @@ College Union
     </li>
 </ol>
 </div>
-
+<div class="mt-10">
+    <h2 class="text-2xl font-semibold mb-4">College Union 2024 - 2025</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.21%20PM.jpeg" alt="College Union 2024-2025 Image 1" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.21%20PM%20(1).jpeg" alt="College Union 2024-2025 Image 2" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.22%20PM.jpeg" alt="College Union 2024-2025 Image 3" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.22%20PM%20(1).jpeg" alt="College Union 2024-2025 Image 4" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.22%20PM%20(2).jpeg" alt="College Union 2024-2025 Image 5" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.23%20PM.jpeg" alt="College Union 2024-2025 Image 6" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.23%20PM%20(1).jpeg" alt="College Union 2024-2025 Image 7" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.23%20PM%20(2).jpeg" alt="College Union 2024-2025 Image 8" class="rounded-lg w-full h-full object-cover">
+        </div>
+        <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
+            <img src="/img/union/24-25/WhatsApp%20Image%202026-05-06%20at%206.05.24%20PM.jpeg" alt="College Union 2024-2025 Image 9" class="rounded-lg w-full h-full object-cover">
+        </div>
+    </div>
+</div>
 
 <div class="mt-10">
+<h2 class="text-2xl font-semibold mb-4">College Union 2022 - 2023</h2>
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <!-- Example of responsive images -->
         <div class="relative pb-[56.25%] overflow-hidden bg-gray-200 rounded-lg">
