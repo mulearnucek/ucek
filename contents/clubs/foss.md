@@ -1,7 +1,7 @@
 ---
 title: FOSS Club
 description: ''
-lastUpdated: '2025-05-10'
+lastUpdated: '2026-05-07'
 ---
 ### <span style="color: black; font-weight: 600;text-align: center; display:block;">Empowering Students Through Open Source</span>
 
@@ -20,7 +20,7 @@ The primary objective of the FOSS Club is to foster a robust technological found
       Visit
     </span>
     <span style="background-color: purple; color: white; display: flex; align-items: center; padding: 0 14px; font-weight:700;">
-      fossucek.tech
+      foss.uck.ac.in
     </span>
   </span>
 </a>
