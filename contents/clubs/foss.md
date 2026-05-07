@@ -13,7 +13,7 @@ The primary objective of the FOSS Club is to foster a robust technological found
 
 
 
-<a href="https://fossucek.tech/" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
+<a href="https://foss.uck.ac.in" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
   <span style="display: inline-flex; height: 28px; overflow: hidden; font-size: 13px; font-weight: bold; text-transform: uppercase;">
     <span style="background-color: #4b4b4b; color: white; display: flex; align-items: center; padding: 0 12px; font-weight:500;">
     <img src='/logos/foss-modified.png' alt="FOSS Logo" style="height: 30px; margin-right: 8px; filter: brightness(0) invert(1);" />
