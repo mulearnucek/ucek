@@ -1,5 +1,8 @@
-International Research Collaboration Cell (UCK-IRCC)
-
+---
+title: International Research Collaboration Cell (UCK-IRCC)
+description: ''
+lastUpdated: '2024-07-30'
+---
 UCEK is focused on providing international exposure to our students as a part of education and learning. An academic linkage with reputed and accredited overseas institutions is pivotal to its academic planning, growth and further progress. The college is exploring international collaborations with various universities and industries around the globe for the elevation of the Institution’s national and international status and it shall be strictly in compliance with the rules and regulations of the affiliated universities
 
 The upgradation of knowledge, skills, research and learning are essential for the creation of practical and adaptable solutions in the field of engineering and technology which in turn will improve the quality of our lives. The purpose of the International Research cell is to assist researchers in identifying the current research thrust areas around the globe and generate new theoretical or/and experimental knowledge by collaborating with other academic disciplines, Indian and foreign universities, research centers and industry. The cell shall serve as an overall framework within which international research activities may be carried out

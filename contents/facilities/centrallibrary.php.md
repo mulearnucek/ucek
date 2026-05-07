@@ -1,6 +1,9 @@
-CENTRAL LIBRARY
-
-  <p style="font-size: 15px;">
+---
+title: CENTRAL LIBRARY
+description: ''
+lastUpdated: '2025-05-08'
+---
+<p style="font-size: 15px;">
     The college library houses a vast collection of technical books and subscribes to numerous leading journals and magazines, including access to national and international journals via the University Campus network at Kariavattom. It is one of the largest technical libraries in the state capital and the first among engineering colleges in Kerala to automate its housekeeping operations. The library includes separate lending and reference sections, offering a wide range of titles across all engineering disciplines. Open to all students and staff during working hours, it plays a key role in supporting the institution’s educational and research missions by providing access to both printed and digital resources.
 
   </p>

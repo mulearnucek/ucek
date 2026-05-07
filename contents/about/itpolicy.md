@@ -1,5 +1,8 @@
-Internet And Campus Network Usage Policy
-
+---
+title: Internet And Campus Network Usage Policy
+description: ''
+lastUpdated: '2024-08-04'
+---
 University College of Engineering provides campus Wi-Fi and computing facilities for the use of faculty, staff, students and other authorized individuals in the campus.
 
 ## IT USAGE POLICY STATEMENT

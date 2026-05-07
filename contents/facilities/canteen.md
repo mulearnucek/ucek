@@ -1,6 +1,9 @@
-COLLEGE CANTEEN
-
-  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem; justify-content: center;">
+---
+title: COLLEGE CANTEEN
+description: ''
+lastUpdated: '2025-05-08'
+---
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 2rem; justify-content: center;">
     <!-- <div style="flex: 1 1 350px; max-width: 450px;">
       <img src="images/canteen.jpg" alt="Canteen" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);" />
     </div> -->

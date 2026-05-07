@@ -1,5 +1,8 @@
-Legacy IEDC
-
+---
+title: Legacy IEDC
+description: ''
+lastUpdated: '2025-05-10'
+---
 ## <span style="color: black; font-weight: 600;text-align: center; display:block;">Fostering Innovation & Entrepreneurship</span>
 
 <div style="background: #f5f9fc; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; display:flex; flex-direction:column; align-items:center;">

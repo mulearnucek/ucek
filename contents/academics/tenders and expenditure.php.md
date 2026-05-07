@@ -1,4 +1,8 @@
-<h2>Tenders And Expenditure </h2>
+---
+title: <h2>Tenders And Expenditure </h2>
+description: ''
+lastUpdated: '2024-07-30'
+---
 <h2>Running Proposal of last academic year </h2>
 <p>Laptop for Students Developer Club and various other departments</p>
 <p>Our Ref: 18424                       Bidder Refs: TVM/ITBG/PI/RC/18424/20-21 </p>

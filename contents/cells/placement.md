@@ -1,5 +1,8 @@
-Career Guidance and Placement Unit
-
+---
+title: Career Guidance and Placement Unit
+description: ''
+lastUpdated: '2024-08-04'
+---
 The Career Guidance & Placement Unit (CGPU) of the college is working as a team under the leadership of the Coordinator, the Committee Members of each Department and a batch of dedicated students. The students of the college are getting regular placements in many multinational companies like TCS, IBM, INFOSYS, UST GLOBAL, WIPRO, IBS, SPERIDIAN, CTS etc.
 
 The CGPU sends the College brochure to the selected companies inviting them for Campus Recruitment. The Companies may inform the CGPU, the details of their requirement for recruitment. The Unit will provide all necessary facilities required for briefing, pre-placement talks, conducting written tests, group discussions and interview.

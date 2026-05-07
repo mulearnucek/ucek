@@ -1,5 +1,8 @@
-Admissions (B.Tech)
-
+---
+title: Admissions (B.Tech)
+description: ''
+lastUpdated: '2024-08-11'
+---
 ## Regular Admissions
 Admission to Merit and Management Quotas are done by CEE through KEAM.
 <center><h3>KEAM CODE : UCK</h3></center>

@@ -1,5 +1,8 @@
-Office Bearers
-
+---
+title: Office Bearers
+description: ''
+lastUpdated: '2024-08-13'
+---
 <div class="flex flex-col space-y-4">
   <div class="flex items-center">
     <img src="/img/administrative/chancellor.jpg" class="w-40 h-28 object-cover rounded-lg" style="filter:brightness(90%);"/>

@@ -1,5 +1,8 @@
-Internal Complaint Committee
-
+---
+title: Internal Complaint Committee
+description: ''
+lastUpdated: '2024-08-05'
+---
 The Internal Complaints Committee was constituted in accordance with the Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013.The objective of the Committee is to take consistent action for prevention, prohibition and redressal of complaints received regarding sexual harassment and gender discrimination of women personnel at the workplace. The college is committed to providing a safe and conducive work and academic environment to students and its employees and is extremely alert to matters pertaining to any kind of harassment and gender sensitivity.
 
 ## Members

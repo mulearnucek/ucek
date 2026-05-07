@@ -1,7 +1,9 @@
-HEALTH CENTRE
-
-
-  <div style="font-size: 17px;">
+---
+title: HEALTH CENTRE
+description: ''
+lastUpdated: '2025-05-08'
+---
+<div style="font-size: 17px;">
     <p>
       The Health Centre at UCEK offers essential medical support to students, faculty, and staff through an on-campus facility staffed by doctors, nurses, and health workers. It provides first aid, minor treatments, consultations, and emergency referrals during college hours. The centre also promotes campus wellness through regular checkups, awareness programs, and health campaigns, especially during high-stress periods like exams, ensuring a safe and supportive environment for the entire college community.
     </p>

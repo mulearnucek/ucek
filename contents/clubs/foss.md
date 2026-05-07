@@ -1,5 +1,8 @@
-FOSS Club
-
+---
+title: FOSS Club
+description: ''
+lastUpdated: '2025-05-10'
+---
 ### <span style="color: black; font-weight: 600;text-align: center; display:block;">Empowering Students Through Open Source</span>
 
 <div style="background: #f5f9f5; display:flex; padding: 20px;flex-direction:column; border-radius: 8px; margin: 20px 0;  align-items:center;">

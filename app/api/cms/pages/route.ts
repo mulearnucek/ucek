@@ -61,7 +61,7 @@ export async function GET(req: NextRequest) {
   }
 }
 
-// BATCH UPDATE: saves multiple files + metadata.json in a single commit
+// BATCH UPDATE: saves multiple files in a single commit
 export async function PATCH(req: NextRequest) {
   if (!(await verifyAuth(req))) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -82,36 +82,48 @@ export async function PATCH(req: NextRequest) {
     const commitData = await commitRes.json();
     const baseTreeSha = commitData.tree.sha;
 
-    // 3. Fetch current metadata.json if exists
-    let metadata: Record<string, string> = {};
-    const metaPath = "contents/metadata.json";
-    const metaRes = await fetch(`${githubApiBase}/contents/${metaPath}?ref=${process.env.GITHUB_BRANCH}`, { headers: getGithubHeaders() });
-    if (metaRes.ok) {
-      const metaData = await metaRes.json();
-      try {
-        metadata = JSON.parse(Buffer.from(metaData.content, "base64").toString("utf-8"));
-      } catch (e) {
-        metadata = {};
-      }
-    }
-
-    // 4. Update metadata and build new tree elements
+    // 3. Update metadata and build new tree elements
     const tree: any[] = [];
-    const now = new Date().toISOString();
+    const now = new Date().toISOString().split('T')[0];
+
+    // Lazy load gray-matter for server-side parsing
+    const matter = (await import('gray-matter')).default;
 
     for (const [path, content] of Object.entries(updates)) {
-      if (path !== metaPath) metadata[path] = now;
-      tree.push({
-        path,
-        mode: "100644",
-        type: "blob",
-        content: content as string
-      });
+      if (path.endsWith('.md')) {
+        try {
+          const parsed = matter(content as string);
+          parsed.data.lastUpdated = now;
+          if (!parsed.data.title) parsed.data.title = "Untitled";
+          
+          const updatedContent = matter.stringify(parsed.content, parsed.data);
+          tree.push({
+            path,
+            mode: "100644",
+            type: "blob",
+            content: updatedContent
+          });
+        } catch (e) {
+          // If parsing fails, just save the raw content
+          tree.push({
+            path,
+            mode: "100644",
+            type: "blob",
+            content: content as string
+          });
+        }
+      } else {
+        tree.push({
+          path,
+          mode: "100644",
+          type: "blob",
+          content: content as string
+        });
+      }
     }
 
     if (deletes) {
       for (const path of deletes) {
-        delete metadata[path];
         tree.push({
           path,
           mode: "100644",
@@ -120,14 +132,6 @@ export async function PATCH(req: NextRequest) {
         });
       }
     }
-
-    // Add metadata.json to tree
-    tree.push({
-      path: metaPath,
-      mode: "100644",
-      type: "blob",
-      content: JSON.stringify(metadata, null, 2)
-    });
 
     // 5. Create new tree
     const createTreeRes = await fetch(`${githubApiBase}/git/trees`, {

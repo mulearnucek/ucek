@@ -1,5 +1,8 @@
-Parent Teacher Association
-
+---
+title: Parent Teacher Association
+description: ''
+lastUpdated: '2024-08-04'
+---
 The Parent Teacher Association (PTA) is a private organization of the parent of all students of the University College of Engineering, Kariavattam and the teaching faculties. It’s a very active organization working in the college to provide a common forum for interaction of parents and teachers so as to improve the facilities and infrastructure for academic excellence. The objective includes the development, improvement and promotion of the University College of Engineering, Kerala. It also provides special and essential services to the students. .
 
   

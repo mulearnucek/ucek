@@ -1,5 +1,8 @@
-College Union
-
+---
+title: College Union
+description: ''
+lastUpdated: '2024-08-13'
+---
 <div class="grid grid-col-2">
 <h1 class="text-lg md:text-2xl">College Union 2022 - 2023</h1>
     <div class="flex items-center">

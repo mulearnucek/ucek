@@ -6,6 +6,37 @@ import dynamic from "next/dynamic";
 
 const Editor = dynamic(() => import("./editor"), { ssr: false });
 
+const parseFrontmatter = (content: string) => {
+  const match = content.match(/^---\n([\s\S]*?)\n---(?:\n|$)([\s\S]*)$/);
+  if (match) {
+    const yaml = match[1];
+    const body = match[2];
+    const titleMatch = yaml.match(/title:\s*"?([^"\n]*)"?/);
+    const descMatch = yaml.match(/description:\s*"?([^"\n]*)"?/);
+    return {
+      title: titleMatch ? titleMatch[1].trim() : "",
+      description: descMatch ? descMatch[1].trim() : "",
+      yaml: yaml,
+      body: body
+    };
+  }
+  return { title: "", description: "", yaml: "", body: content };
+};
+
+const stringifyFrontmatter = (title: string, description: string, body: string, existingYaml: string) => {
+  let yaml = existingYaml;
+  if (!yaml) {
+    yaml = `title: ${title}\ndescription: ${description}`;
+  } else {
+    if (yaml.match(/title:\s*.*/)) yaml = yaml.replace(/title:\s*.*/, `title: ${title}`);
+    else yaml += `\ntitle: ${title}`;
+    
+    if (yaml.match(/description:\s*.*/)) yaml = yaml.replace(/description:\s*.*/, `description: ${description}`);
+    else yaml += `\ndescription: ${description}`;
+  }
+  return `---\n${yaml.trim()}\n---\n${body}`;
+};
+
 type GitFile = {
   path: string;
   sha: string | null;
@@ -447,13 +478,50 @@ export default function PagesManager() {
                   </button>
                 </div>
               </div>
-              <div className="flex-1 relative bg-white overflow-hidden">
-                <Editor 
-                  key={selectedPath}
-                  markdown={selectedState.current} 
-                  onChange={(md) => updateFileContent(selectedPath, md)}
-                  isRaw={isRawMode}
-                />
+              <div className="flex-1 relative bg-white overflow-hidden flex flex-col">
+                {isRawMode ? (
+                  <Editor 
+                    key={selectedPath + "-raw"}
+                    markdown={selectedState.current} 
+                    onChange={(md) => updateFileContent(selectedPath, md)}
+                    isRaw={true}
+                  />
+                ) : (() => {
+                   const { title, description, yaml, body } = parseFrontmatter(selectedState.current);
+                   return (
+                     <>
+                       <div className="p-6 border-b border-gray-100 bg-gray-50/50 space-y-4 shrink-0 overflow-y-auto max-h-64">
+                         <div>
+                           <label className="block text-xs font-semibold text-gray-500 mb-1 uppercase tracking-wider">Page Title</label>
+                           <input 
+                             type="text" 
+                             value={title}
+                             onChange={(e) => updateFileContent(selectedPath, stringifyFrontmatter(e.target.value, description, body, yaml))}
+                             className="w-full text-lg font-bold bg-white border border-gray-200 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all placeholder:font-normal"
+                             placeholder="Enter page title..."
+                           />
+                         </div>
+                         <div>
+                           <label className="block text-xs font-semibold text-gray-500 mb-1 uppercase tracking-wider">Description <span className="text-gray-400 normal-case font-normal">(Optional metadata)</span></label>
+                           <textarea 
+                             value={description}
+                             onChange={(e) => updateFileContent(selectedPath, stringifyFrontmatter(title, e.target.value, body, yaml))}
+                             className="w-full text-sm bg-white border border-gray-200 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all resize-none min-h-[60px]"
+                             placeholder="Brief description for SEO and previews..."
+                           />
+                         </div>
+                       </div>
+                       <div className="flex-1 relative overflow-hidden">
+                         <Editor 
+                           key={selectedPath + "-visual"}
+                           markdown={body} 
+                           onChange={(md) => updateFileContent(selectedPath, stringifyFrontmatter(title, description, md, yaml))}
+                           isRaw={false}
+                         />
+                       </div>
+                     </>
+                   );
+                })()}
               </div>
             </>
           ) : (

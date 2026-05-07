@@ -12,6 +12,7 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import { notFound } from "next/navigation";
+import matter from "gray-matter";
 
 const contentDir = path.join(process.cwd(), "contents");
 
@@ -19,8 +20,10 @@ export async function generateStaticParams() {
   const sections = fs.readdirSync(contentDir);
 
   const paths = sections.flatMap((section) => {
-    if (section == "metadata.json") return
-    const articles = fs.readdirSync(path.join(contentDir, section));
+    if (section == "metadata.json") return [];
+    const dirPath = path.join(contentDir, section);
+    if (!fs.statSync(dirPath).isDirectory()) return [];
+    const articles = fs.readdirSync(dirPath).filter(f => f.endsWith('.md'));
     return articles.map((article) => {
       return {
         id: article.replace(/\.md$/, ""),
@@ -37,45 +40,43 @@ export async function generateMetadata({
   params: { id: string; section: string };
 }) {
   const fullPath = path.join(contentDir, params.section, `${params.id}.md`);
-  let title, content;
+  let title = "404", description = "Page not found.";
 
   try {
     const fileContents = fs.readFileSync(fullPath, "utf8");
-    title = fileContents.split("\n", 1)[0];
-    content = fileContents.split("\n").slice(1).join("\n");
+    const { data } = matter(fileContents);
+    if (data.title) title = data.title;
+    if (data.description) description = data.description;
   } catch (e) {
-    title = "404";
-    content = "Page not found. That's all we know. :-(";
+    // fallback
   }
 
   return {
     title: title,
-    description: content,
+    description: description,
   };
 }
 
 const getArticle = ({ id, section }: { id: string; section: string }) => {
   const fullPath = path.join(contentDir, section, `${id}.md`);
-  let title, content, lastUpdated;
+  let title, content, lastUpdated = "";
 
   try {
     const fileContents = fs.readFileSync(fullPath, "utf8");
-    title = fileContents.split("\n", 1)[0];
-    content = fileContents.split("\n").slice(1).join("\n");
-
-    // Get last updated date for metadata.json
-    const metadataPath = path.join(contentDir, "metadata.json");
-    const metadata = JSON.parse(fs.readFileSync(metadataPath, "utf8"));
-    lastUpdated = new Date(metadata[section][`${id}.md`]).toLocaleString('en-IN', {
-      day: '2-digit',
-      month: 'short',
-      year: 'numeric'
-    });
-
+    const { data, content: mdContent } = matter(fileContents);
+    title = data.title || "Untitled";
+    content = mdContent;
+    
+    if (data.lastUpdated) {
+      lastUpdated = new Date(data.lastUpdated).toLocaleString('en-IN', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric'
+      });
+    }
   } catch (e) {
     title = "404";
     content = "Page not found. That's all we know. :-(";
-    lastUpdated = "";
   }
 
   return { title, content, lastUpdated } as { title: string; content: string, lastUpdated: string };

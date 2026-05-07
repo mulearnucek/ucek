@@ -1,5 +1,8 @@
-Department of Computer Science & Engineering 
-
+---
+title: Department of Computer Science & Engineering
+description: ''
+lastUpdated: '2024-08-26'
+---
 Department of CSE was started in the year 2000 with an intake of 60 students for UG program. The department is offering the required knowledge and skill set to the students with an aim to accomplish a good professional successful career. Department has good interactions and MOUs with technology domain industries. Computer Sciences department is very happy to claim that highly talented students got placed in various multinational companies.
 
 Computer science is one of the important departments which can change the nature and growth of the development of our nation and also the world.CSE department is very proud to publicize that the students are very talented in technical and cultural aspects.

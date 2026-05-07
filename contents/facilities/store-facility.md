@@ -1,7 +1,9 @@
-STORE
-
-
-  <div style="font-size: 17px;">
+---
+title: STORE
+description: ''
+lastUpdated: '2025-05-08'
+---
+<div style="font-size: 17px;">
     <p>
       The College Store at UCEK is a vital on-campus facility that provides academic essentials to both students and staff at reasonable prices. Conveniently located within the college premises, the store saves students the hassle of sourcing materials from outside.
     </p>

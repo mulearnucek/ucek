@@ -1,4 +1,8 @@
-<h2>Centre for Continuing Education </h2>
+---
+title: <h2>Centre for Continuing Education </h2>
+description: ''
+lastUpdated: '2024-07-30'
+---
 <p>The Continuing Education Cell in UCEK undertakes various short term courses. The Funds generated
 from these courses are being utilized for the various developmental activities of the college. Through
 the Continuing Education Cell, we enable the employed/unemployed educated youth to pursue

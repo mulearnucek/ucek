@@ -1,5 +1,8 @@
-Grievances Redressal Cell
-
+---
+title: Grievances Redressal Cell
+description: ''
+lastUpdated: '2024-08-07'
+---
 Grievances Redressal Cell is formed by the Head of the Institution to solve the complaints /suggestion received from students and subsequent remedial measures adopted.
 The grievances at departmental level are dealt by the concerned mentors and class coordinators. Unresolved grievances at the departmental level are referred to the Grievance Redressal Cell of the institution. The institution has suggestion boxes which are set up in main location of the campus regularly. The grievances are collected from the suggestion boxes and respective mail id and are forwarded to the cell for appropriate action.
 

@@ -1,5 +1,8 @@
-Tourism Club
-
+---
+title: Tourism Club
+description: ''
+lastUpdated: '2024-08-16'
+---
 ### Navigating the Tourism Frontier: UCEK’s Vibrant Tourism Club
 
 The Tourism Club at University College of Engineering Karyavattom (UCEK) isn’t just about exploring exotic destinations; it’s about shaping a sustainable future and empowering individuals within the tourism industry. Recent events have underscored the pivotal role UCEK’s Tourism Club plays in fostering environmental consciousness and responsible tourism practices.
