@@ -19,7 +19,6 @@ Mob : +91 9447930157
   
 
 ## Details of some of the placed students
-<div class="md-table-wraper" markdown="block">
 
 | Sl.No. | Name of Student | Department | Company | Period of Placement |
 | --- | --- | --- | --- | --- |
@@ -363,5 +362,3 @@ Mob : +91 9447930157
 | 330 | Vipin P R | Department of Computer Science & Engineering | Allianz Technology | 2015 - 2016 |
 |     |     |     |     |     |
 | 331 | VISHNUPRIYA L | Department of Information Technology |     |     |
-
-</div>

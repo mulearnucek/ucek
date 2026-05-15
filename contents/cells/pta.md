@@ -12,7 +12,6 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
   
 
 ## **PTA Executive Committee Members 2025-2026**
-<div class="md-table-wraper" markdown="block">
 
 | Executive Members | Designation | Contact Number |
 | --- | --- | --- |
@@ -39,8 +38,6 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
 | Divya D T | HOD CSE | 9656468540 |
 | Bhanu S Nair | HOD General Department | 9895911465 |
 | Rohini P S (Staff Representative) | AP in ECE | 8129602033 |
-
-</div>
 
   
 
