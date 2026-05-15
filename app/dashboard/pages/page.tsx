@@ -323,7 +323,7 @@ export default function PagesManager() {
          throw new Error(data.error || "Save failed");
       }
       
-      alert("Successfully saved all changes to GitHub!");
+      alert("Successfully saved all changes!");
       await fetchFiles();
     } catch (err: any) {
       alert("Error saving: " + err.message);

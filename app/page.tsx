@@ -9,6 +9,7 @@ import AdministrationPanel from '@/components/layout/admins'
 import MoreUcek from '@/components/layout/ucekmore'
 import Footer from '@/components/layout/footer'
 import Gallery from '@/components/layout/gallery'
+import HomeGallery from '@/components/layout/home-gallery'
 import Link from "next/link";
 import HeroSlider from "@/components/layout/landing";
 import Popup from '@/components/layout/popup';
@@ -21,8 +22,9 @@ export default function Home() {
       <Nav />
       <HeroSlider />
       <Quick />
-      <Whyucek />
+      <HomeGallery />
       <NewsEvents />
+      <Whyucek />
       <AdministrationPanel />
       <MoreUcek />
       <Footer />
