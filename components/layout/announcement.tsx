@@ -55,8 +55,8 @@ const Announcement = () => {
   return (<>
     {popup && <Popup image={popup}/>}
     <div className="flex flex-col md:flex-row bg-white w-full h-auto md:h-[65vh] justify-center items-center gap-8 md:gap-40 p-8 md:p-20 space-y-8 md:space-y-0">
-      <div className=" flex-col items-center justify-center">
-        <h2 className="text-[2rem] font-bold flex items-center mb-6">
+      <div className=" flex-col items-center">
+        <h2 className="text-xl md:text-2xl font-bold flex items-center mb-6">
           <span className="w-2 h-6 bg-blue-500 mr-2"></span> Announcements
         </h2>
         <div className="w-full">
