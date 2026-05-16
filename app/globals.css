@@ -103,6 +103,9 @@ body {
 
 .prose :where(table):not(:where([class~="not-prose"] *)) {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
   overflow-x: auto;
   max-width: 100%;
   -ms-overflow-style: -ms-autohiding-scrollbar;
