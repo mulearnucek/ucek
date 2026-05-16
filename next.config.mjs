@@ -2,6 +2,8 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
+        loader: 'custom',
+        loaderFile: './image-loader.js',
         remotePatterns: [
             {
                 "hostname": "drive.google.com",
