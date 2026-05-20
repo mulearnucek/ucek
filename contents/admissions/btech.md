@@ -1,7 +1,7 @@
 ---
 title: Admissions (B.Tech)
 description: ''
-lastUpdated: '2026-05-08'
+lastUpdated: '2026-05-19'
 ---
 ## Regular Admissions
 
@@ -83,7 +83,7 @@ SM - State Merit, MG - Management
 | **#** | **DETAILS OF FEE** | **FEE (MERIT)** | **FEE (MANAGEMENT)** | **FEE (NRI)** | **METHOD OF REMITTANCE** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | TUITION FEE (Yearly) | 36,750 | 68,250 | 1,05,000 | Demand Draft In Favour Of Finance Officer, University Of Kerala |
-| 2 | OFFICE FEE | 5,465 | 9,465 | 14,465 | By Cash At College |
+| 2 | OFFICE FEE | 5,485 | 9,485 | 14,485 | By Cash At College |
 | 3 | PTA FEE | 6,000 | 8,500 | 12,000 | By Cash At College |
 | 4 | PLACEMENT FEE | 1,000 | 1,000 | 1,000 | By Cash At College |
 | 5 | INTEREST FREE REFUNDABLE DEPOSIT | Nil | Nil | 1,25,000 | Demand Draft In Favour Of Finance Officer, University Of Kerala |

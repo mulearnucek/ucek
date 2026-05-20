@@ -15,7 +15,7 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
 
 | Executive Members | Designation | Contact Number |
 | --- | --- | --- |
-| Indusalini G (PTA President) | Principal in-charge | 9388011160 |
+| Dr. Vijayakumar Narayanan (PTA President) | Principal | 9388011160 |
 | Beena Thomas (Vice President) | Executive Member S8 CSE | 9562185600 |
 | Sabeena A.S (PTA Secretary) | Asst Professor Dept of Information Technology | 9946559271 |
 | Dr. Jayakumar M (Joint Secretary) | Executive Member S8 IT | 8129485779 |

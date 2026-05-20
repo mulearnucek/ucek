@@ -3,14 +3,14 @@
 <p>To prevent ragging in this campus an anti-ragging cell is constituted. In case of any ragging directly contact in person or over phone any of the members. The Anti Ragging Committee consists of The Principal as the chairperson and with the following members </p>
 <table border="1" cellpadding="8" style="border-collapse:collapse;">
 <tr><td><strong>Cell Members</strong></td><td><strong>Contact Details</strong></td></tr>
-<tr><td>Chairman</td><td>Indusalini G, Principal in-charge, 9388011160 </td></tr>
+<tr><td>Chairman</td><td>Dr. Vijayakumar Narayanan, Principal, 9388011160 </td></tr>
 <tr><td>Representative of Civil Administration </td><td>Counselor, Sreekariam </td></tr>
 <tr><td>Representative of Police Administration </td><td>Sub Inspector of Police, Sreekariam </td></tr>
 <tr><td>JR in campus administration</td><td>N R.Sreela </td></tr>
 <tr><td>Representatives of Faculty Members </td><td>Saina A R, Assistant Professor,UG Dean </td></tr><td></td>
 <td>Diana Mathew, Assistant Professor IT</td><td></td>
 <td>Divya D T, Assistant Professor,HOD, CSE</td><td></td>
-<td>Indusalini G, Assistant Professor,HOD, ECE</td><td></td>
+<td>Dr. Vijayakumar Narayanan, Assistant Professor,HOD, ECE</td><td></td>
 <td>Sangeetha S Nair, Assistant Professor,HOD,IT </td>
 <tr><td>Representatives of Parents </td><td>Vice President, PTA </td></tr>
 <tr><td>Representatives of Students </td><td>Chairman, College Union </td></tr>

@@ -11,7 +11,7 @@ Internal Quality Assurance Cell(IQAC) is the premier body of the college, having
 
 | # | Name | Contact Number
 | --- | --- | --- |
-| 1 | Indusalini G (Chairperson, Principal in-charge) | 9388011160
+| 1 | Dr. Vijayakumar Narayanan (Chairperson, Principal) | 9388011160
 | 2 | Smt.Mini K P(Sr. Administrative) | 8281556762
 | 3 | Smt. Anu Antony(Co-ordinator) | 9447930157
 | 4 | Smt. Drishya S S | 9447324434

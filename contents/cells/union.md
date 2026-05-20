@@ -3,73 +3,19 @@ title: College Union
 description: ''
 lastUpdated: '2024-08-13'
 ---
-<div class="grid grid-col-2">
-<h1 class="text-lg md:text-2xl">College Union 2022 - 2023</h1>
-    <div class="flex items-center">
-      <div><img width=250 height=250 src="/img/union/22-23/chairman.jpg"  class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg"/></div>
-      <div class="flex flex-col" style="margin-left: 12px">
-        <span style="color:#C63" class="text-lg md:text-xl font-bold">Chairman</span>
-         <span class="text-md md:text-2xl font-bold">Ajumal t</span>
-      </div>
-   </div>
-   <div class="flex items-center">
-      <div><img  src="/img/union/22-23/general_secretary.jpg" width=250 height=250 class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg" /></div>
-      <div class="flex flex-col" style="margin-left: 12px"><span style="color:#C63"  class="font-bold text-lg md:text-xl">General secretary</span>
-         <span class="text-md md:text-2xl font-bold">Alif Muhammed N</span>
-      </div>
-   </div>
-   <div class="flex items-center">
-      <div><img  src="/img/union/22-23/vice_chairperson.jpg" width=250 height=250 class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg"/></div>
-      <div class="flex flex-col" style="margin-left: 12px"><span style="color:#C63" class="text-lg md:text-xl font-bold">Vice chairperson</span>
-         <span class="text-md md:text-2xl font-bold">Sradha R Kurup
-</span>
-      </div>
-   </div>
-   <div class="flex items-center">
-      <div><img  src="/img/union/22-23/arts_secretary.jpg" width=250 height=250 class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg"/></div>
-      <div class="flex flex-col" style="margin-left: 12px"><span style="color:#C63" class="text-lg md:text-xl font-bold">Arts Club Secretary </span>
-         <span class="text-md md:text-2xl font-bold">Malavika Sreekumar
-
-</span>
-      </div>
-   </div>
-   <div class="flex items-center">
-      <div><img  src="/img/union/22-23/sports_secretary.jpg" width=250 height=250 class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg"/></div>
-      <div class="flex flex-col" style="margin-left: 12px"><span style="color:#C63" class="text-lg md:text-xl font-bold">Sports Secretary</span>
-         <span class="text-md md:text-2xl font-bold">Alan A
-</span>
-      </div>
-   </div>
-   <div class="flex items-center">
-      <div><img  src="/img/union/22-23/lady_rep.jpg" width=250 height=250 class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg"/></div>
-      <div class="flex flex-col" style="margin-left: 12px"><span style="color:#C63" class="text-lg md:text-xl font-bold">Lady Representative</span>
-         <span class="text-md md:text-2xl font-bold">Harsha P S
-</span>
-      </div>
-   </div>
-   <div class="flex items-center">
-      <div><img  src="/img/union/22-23/magazine_editor.jpg" width=250 height=250 class="min-w-32 h-32 md:w-40 md:h-40 aspect-square rounded-lg"/></div>
-      <div class="flex flex-col" style="margin-left: 12px"><span style="color:#C63" class="text-lg md:text-xl font-bold">Magazine Editor</span>
-         <span class="text-md md:text-2xl font-bold">Navaneeth CL
-</span>
-      </div>
-   </div>
-</div>
-<div class="max-w-5xl mx-auto bg-white rounded-lg p-6">
-   <h1 class="text-3xl font-bold text-center mb-6">Annual Report of the Activities and Accomplishments</h1>
-      <p class="text-lg text-gray-700 mb-4">We present the report of the elected Student Union's activities over the past year.</p>
-
-   <h2 class="text-2xl font-semibold mb-4">Office Bearers</h2>
+<div class="max-w-5xl mx-auto bg-white rounded-lg">
+   <h2 class="text-2xl font-semibold mb-4">College Union 2024 - 2025</h2>
         <ul class="list-none mb-6">
-            <li><strong>Chairman:</strong> Ajumal T</li>
-            <li><strong>Vice Chairperson:</strong> Sraddha Rekharani Kurup</li>
-            <li><strong>Arts Club Secretary:</strong> Malavika Sreekumar</li>
-            <li><strong>Secretary of Sports:</strong> Alan Achankunju</li>
-            <li><strong>Magazine Editor:</strong> Navaneeth C.L.</li>
-            <li><strong>Women's Representative:</strong> Harsha</li>
+            <li><strong>Chairman: </strong>Thasnim Nisar Ali</li>
+            <li><strong>General Secretary: </strong>Abhinand K P</li>
+            <li><strong>Vice Chairperson: </strong>Jyothika A S</li>
+            <li><strong>Arts Club Secretary: </strong>Ann S S</li>
+            <li><strong>Secretary of Sports: </strong>Abhinav Nair</li>
+            <li><strong>Magazine Editor: </strong>Alhad S</li>
+            <li><strong>Women's Representative: </strong>Akheedha Jan</li>
         </ul>
 
-   <p class="mb-6">The union officially took charge on <strong>April 4, 2023</strong>. Here's a summary of the key events and initiatives:</p>
+   <p class="mb-6">Here's a summary of the key events and initiatives:</p>
 
    <ol class="list-decimal pl-6 space-y-4">
     <li>
@@ -86,7 +32,7 @@ lastUpdated: '2024-08-13'
     </li>
     <li>
         <h3 class="text-lg font-semibold">College Union Inauguration</h3>
-        <p>The College Union was officially inaugurated on April 25, 2023, by essential support staff of the college. The event's chief guest was MLA Harindran. The program was chaired by Union Chairman Ajumal T, with greetings from the college Principal in-charge, Indusalini G, the Dean, department heads, and SFI UCE Unit Secretary Vignesh. Vice Chairperson Sradha R. Kurup delivered the vote of thanks.</p>
+        <p>The College Union was officially inaugurated on April 25, 2023, by essential support staff of the college. The event's chief guest was MLA Harindran. The program was chaired by Union Chairman Ajumal T, with greetings from the college Principal, Dr. Vijayakumar Narayanan, the Dean, department heads, and SFI UCE Unit Secretary Vignesh. Vice Chairperson Sradha R. Kurup delivered the vote of thanks.</p>
     </li>
     <li>
         <h3 class="text-lg font-semibold">Dance Club Inauguration</h3>

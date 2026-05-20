@@ -368,7 +368,7 @@ export const siteSearchIndex: SiteContent[] = [
       "Special essential services students",
       "Executive Committee guidance control",
       "University Kerala bye-law formulated",
-      "Indusalini G Principal in-charge",
+      "Dr. Vijayakumar Narayanan Principal",
       "M.B Reghunadan Nair Vice President",
       "Sabeena A.S Secretary Assistant Professor",
       "Gee Vargeese Panicker Joint Secretary",
