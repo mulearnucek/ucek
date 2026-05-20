@@ -4,7 +4,7 @@
 <h2> COMMITTEE MEMBERS: </h2>
 <table border="1" style="width:400px">
 <tr><th>Name</th><th>Department</th></tr>
-<tr><td>Indusalini G </td><td>ECE</td></tr>
+<tr><td>Dr. Vijayakumar Narayanan </td><td>ECE</td></tr>
 <tr><td>Al Sameera B.N</td><td>ECE</td></tr>
 <tr><td>AHaseena Beegam</td><td>ECE</td></tr>
 <tr><td>Vidhya S</td><td>ECE</td></tr>

@@ -4,7 +4,7 @@
 <div class="contentDiv">
 <h2><b>General Committee Members </b></h2>
 <table border="1" cellpadding="8" style="border-collapse:collapse;">
-<tr><td><strong> Members</strong></td><td><strong>DESIGNATION</strong></td><td><strong>Contact Number</strong></td><td><strong>EMAIL ID</strong></td></tr><tr><td>Chair Person-Indusalini G</td><td>Principal in-charge</td><td>9388011160</td><td>ucekprincipal@gmail.com </td>
+<tr><td><strong> Members</strong></td><td><strong>DESIGNATION</strong></td><td><strong>Contact Number</strong></td><td><strong>EMAIL ID</strong></td></tr><tr><td>Chair Person-Dr. Vijayakumar Narayanan</td><td>Principal</td><td>9388011160</td><td>ucekprincipal@gmail.com </td>
 <tr><td>Anupama Sathyan</td><td>Assistant Professor ,Dept of  Information Technology</td><td>8281892981 </td><td>anupamasujith9@gmail.com </td>
 <tr><td>Shijida Shain </td><td>Assistant Professor,Dept of Computer Science and Engineering</td><td>9447402201</td><td>shiji.shain@gmail.com</td></tr>
 <tr><td>Anu Antony</td><td>Assistant Professor,Dept of  Electronics &amp; Communication</td><td>9447930157</td><td>anujoseroogus@gmail.com</td></tr>

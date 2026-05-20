@@ -86,7 +86,7 @@ lastUpdated: '2024-08-13'
     </li>
     <li>
         <h3 class="text-lg font-semibold">College Union Inauguration</h3>
-        <p>The College Union was officially inaugurated on April 25, 2023, by essential support staff of the college. The event's chief guest was MLA Harindran. The program was chaired by Union Chairman Ajumal T, with greetings from the college Principal in-charge, Indusalini G, the Dean, department heads, and SFI UCE Unit Secretary Vignesh. Vice Chairperson Sradha R. Kurup delivered the vote of thanks.</p>
+        <p>The College Union was officially inaugurated on April 25, 2023, by essential support staff of the college. The event's chief guest was MLA Harindran. The program was chaired by Union Chairman Ajumal T, with greetings from the college Principal, Dr. Vijayakumar Narayanan, the Dean, department heads, and SFI UCE Unit Secretary Vignesh. Vice Chairperson Sradha R. Kurup delivered the vote of thanks.</p>
     </li>
     <li>
         <h3 class="text-lg font-semibold">Dance Club Inauguration</h3>

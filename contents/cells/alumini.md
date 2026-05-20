@@ -7,7 +7,7 @@ lastUpdated: '2026-05-07'
 
 ### PRESIDENT
 
-Dr. BISHARATHUBEEVI A Principal, University College of Engineering, Kariavattom
+Dr. Vijayakumar Narayanan Principal, University College of Engineering, Kariavattom
 
 ### SECRETARY
 
