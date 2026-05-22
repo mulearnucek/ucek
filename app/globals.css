@@ -111,6 +111,12 @@ body {
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
+.prose .closing-ranks-table table {
+  margin-left: 0;
+  margin-right: auto;
+  width: 100%;
+}
+
 .prose :where(table):not(:where([class~="not-prose"] *))::-webkit-scrollbar {
   height: 8px;
 }

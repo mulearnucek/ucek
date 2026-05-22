@@ -109,6 +109,12 @@ const Nav = () => {
             <p className="text-sm text-[12px] md:text-[14px]">
               Kariavattom, Thiruvananthapuram
             </p>
+            <p className="text-[11px] md:text-[12px] font-semibold">
+              (Owned and run by University of Kerala)
+            </p>
+            <p className="text-[11px] md:text-[12px] font-semibold">
+              Accredited by NAAC with A++
+            </p>
           </div>
         </div>
         </Link>
