@@ -1,5 +1,8 @@
-Grievances Redressal Cell
-
+---
+title: Grievances Redressal Cell
+description: ''
+lastUpdated: '2024-08-07'
+---
 Grievances Redressal Cell is formed by the Head of the Institution to solve the complaints /suggestion received from students and subsequent remedial measures adopted.
 The grievances at departmental level are dealt by the concerned mentors and class coordinators. Unresolved grievances at the departmental level are referred to the Grievance Redressal Cell of the institution. The institution has suggestion boxes which are set up in main location of the campus regularly. The grievances are collected from the suggestion boxes and respective mail id and are forwarded to the cell for appropriate action.
 
@@ -7,7 +10,7 @@ The grievances at departmental level are dealt by the concerned mentors and clas
 
 | # | Name | Contact Number |
 | -- | -- | -- |
-1 | Indusalini G (Principal in-charge) | 9388011160
+1 | Dr. Vijayakumar Narayanan (Principal) | 9388011160
 2 | Smt. Shiny A Moses | 9495541174
 3 | Smt. Krishna J S | 8893788093
 4 | Smt. Aswathy V | 9846835893
@@ -17,7 +20,7 @@ The grievances at departmental level are dealt by the concerned mentors and clas
 
 | # | Member Name | Contact Number
 | -- | -- | -- |
-1 | Indusalini G (Principal in-charge) | 9388011160
+1 | Dr. Vijayakumar Narayanan (Principal) | 9388011160
 2 | Smt. Mini K P | 8281556762
 3 | Smt. Sheeja Kumari T | 9496106342
 4 | Smt. Saina AR | 8921890014

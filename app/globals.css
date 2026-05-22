@@ -101,31 +101,32 @@ body {
   }
 }
 
-.md-table-wraper {
+.prose :where(table):not(:where([class~="not-prose"] *)) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
   overflow-x: auto;
   max-width: 100%;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.md-table-wraper::-webkit-scrollbar {
+.prose :where(table):not(:where([class~="not-prose"] *))::-webkit-scrollbar {
   height: 8px;
 }
 
-.md-table-wraper::-webkit-scrollbar-track {
+.prose :where(table):not(:where([class~="not-prose"] *))::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 4px;
 }
 
-.md-table-wraper::-webkit-scrollbar-thumb {
+.prose :where(table):not(:where([class~="not-prose"] *))::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 4px;
 }
 
-.md-table-wraper::-webkit-scrollbar-thumb:hover {
+.prose :where(table):not(:where([class~="not-prose"] *))::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-.md-table-wraper {
-  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .prose {

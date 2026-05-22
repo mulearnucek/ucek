@@ -1,5 +1,8 @@
-Anti-ragging cell
-
+---
+title: Anti-ragging cell
+description: ''
+lastUpdated: '2024-08-05'
+---
 Ragging is any disorderly conduct whether by words spoken or written or by an act which has the effect of teasing, treating or handling with rudeness a fellow student, indulging in rowdy or undisciplined activities which cause or likely to cause annoyance, hardship or psychological harm or to raise fear or apprehension thereof in a fresher or junior student or asking the student to do any act or perform something which such student will not do in the ordinary course and which has the effect of causing or generating a sense of shame or embracement so as to adversely affect the physique or psyche of a fresher or a junior student.
 
 To prevent ragging in this campus an anti-ragging cell is constituted. In case of any ragging directly contact in person or over phone any of the members. The Anti Ragging Committee consists of The Principal as the chairperson and with the following members
@@ -8,7 +11,7 @@ To prevent ragging in this campus an anti-ragging cell is constituted. In case o
 
 | # | Member Name | Contact
 | --- | --- | -- |
-| 1 | Indusalini G (Principal in-charge) | 9388011160
+| 1 | Dr. Vijayakumar Narayanan (Principal) | 9388011160
 | 2 | Sri. Binishlal K V | 0471-2592100
 | 3 | Smt. Mini K P | 8281556762
 | 4 | Smt. Sheeja Kumari T | 9496106342

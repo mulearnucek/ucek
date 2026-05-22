@@ -1,5 +1,8 @@
-Research and Development Cell
-
+---
+title: Research and Development Cell
+description: ''
+lastUpdated: '2024-08-07'
+---
 The college has established Research and Development Cell (R&D) which aims to nurture research culture in our college by promoting research in newly emerging and challenging frontier areas of Engineering,Technology,Science and Humanities. It encourages the students and faculty to undertake the research in newly emerging frontier areas including multidisciplinary fields.This enhances the general research capability of budding technocrats by way of participating in conferences, seminars, workshops, project competitions,training programs etc.  
 Research and Development (R&D) flourishes where young minds and experienced faculty work synergistically.  
 The college has a Research and Development Cell which is constituted by a 4 member research committee each from four of our departments  

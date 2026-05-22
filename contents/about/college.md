@@ -1,5 +1,8 @@
-About
-
+---
+title: About
+description: ''
+lastUpdated: '2024-08-07'
+---
 # Vision and Mission
 
 #### Vision
@@ -23,4 +26,3 @@ In 1957, the Kerala University Act, Act 14 of 1957, was brought into force and t
 The college was established in the year 2000 and is functioning in the Golden Jubilee Complex of the Kerala University in the Kariavattom campus. The institution is fast acquiring a reputation for high quality education and fabulous faculty-student rapport. The college has already benefited greatly from its location, being adjacent to the Technopark, the IT hub of the state. Facilities in the Technopark are open to students for learning and University-Industry interaction takes place regularly.
 
 The University is taking initiatives to impart soft skills like communication skills (verbal and nonverbal) and analytical skills as per industry requirements. The college functions with the highest order of discipline so that all students are trained to excel in highly professional environments. The students of various departments organize national level technical symposiums. With the students displaying great aptitude for academic, technical, sporting and cultural endeavors along with the active support of the University, the College is on the right track to soon becoming one of the finest technical institutions in the country.
-

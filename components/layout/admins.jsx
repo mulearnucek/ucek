@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Principal from "@/public/img/administrative/principal (2).jpg";
+import Principal from "@/public/img/administrative/principal.jpg";
 import Chancellor from "@/public/img/administrative/chancellor.jpg";
 import ProChancellor from "@/public/img/administrative/pro_chancellor.jpg";
 import ViceChancellor from "@/public/img/administrative/vice_chancellor.jpg";
@@ -19,7 +19,7 @@ const data = {
     {
       id: 3,
       src: ProChancellor,
-      name: "Dr. R Bindu",
+      name: "Shri. Roji M John",
       position: "Pro-Chancellor",
       org: "The Hon'ble Minister for Higher Education",
     },
@@ -40,8 +40,8 @@ const data = {
     {
       id: 1,
       src: Principal,
-      name: "Indusalini G",
-      position: "Principal in-charge",
+      name: "Dr. Vijayakumar Narayanan",
+      position: "Principal",
       org: "University College of Engineering",
     },
   ],
@@ -50,7 +50,7 @@ const data = {
 const AdministrationPanel = () => {
   return (
     <div className="pt-4 bg-white">
-      <h2 className="text-2xl md:text-[2.6rem] ml-4 md:ml-20 font-bold mb-6 flex items-center">
+      <h2 className="text-2xl md:text-3xl ml-4 md:ml-20 font-bold mt-4 flex items-center">
         <span className="w-2 h-6 bg-blue-500 mr-2"></span> Administration Panel
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 2xl:grid-cols-5  py-10 px-4 md:px-20 justify-items-center md:justify-items-start">

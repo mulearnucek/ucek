@@ -1,4 +1,8 @@
-<div align="center" class="contentDiv">
+---
+title: <div align="center" class="contentDiv">
+description: ''
+lastUpdated: '2024-07-27'
+---
 <h2>ACADEMIC CALENDAR</h2>
 <br/>
 <br/>

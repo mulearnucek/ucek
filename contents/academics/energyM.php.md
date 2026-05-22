@@ -1,4 +1,8 @@
-<h1><font color="blue">Energy Management Cell </font></h1>
+---
+title: <h1><font color="blue">Energy Management Cell </font></h1>
+description: ''
+lastUpdated: '2024-07-30'
+---
 <p>Energy is an important entity of the campus. Hence, it is essential that campus adopt an energy policy to promote the proper management and conservation of energy as well as the use of renewable energy. UCEK aims in creation of awareness regarding energy conservation and management.  </p>
 <br/><h4>Details of generator at kariavattom campus</h4>
 <p>The campus at kariavattom is provided with three no’s of generators ( 2 no’s- 600KVA and 1 no- 250KVA ). Among this 1no - 250KVA is exclusively for clif building. The other two are meant for entire buildings. During power disruption generators are operating either manually or automatically. </p>

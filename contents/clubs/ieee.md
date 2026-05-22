@@ -1,5 +1,8 @@
-IEEE Student Branch
-
+---
+title: IEEE Student Branch
+description: ''
+lastUpdated: '2025-05-10'
+---
 ## <span style="color: black; font-weight: 500;text-align: center; display:block;">Advancing Technology for Humanity</span>
 
 <div style="background: #f5f9fc; padding: 20px; border-radius: 8px; margin: 20px 0; text-align: center; display:flex; flex-direction:column; align-items:center;">

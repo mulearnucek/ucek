@@ -1,5 +1,8 @@
-Internal Quality Assurance Cell
-
+---
+title: Internal Quality Assurance Cell
+description: ''
+lastUpdated: '2024-08-05'
+---
 As per the guidelines of NAAC, we have Internal Quality Assurance Cell to observe all the activities of the college and maintain the Quality Enhancement.
 
 Internal Quality Assurance Cell(IQAC) is the premier body of the college, having the advisory role, which discuss the academic matters, make decisions and proposals for the principal at the formation of policies, regulations and rules.The committee works for assuring the quality of the delivery of programs by individual departments. The IQAC monitors and provides feedback to HOD/faculty about the observed weaknesses and suggessions for improvement at least once during a semester. IQAC also approve and forward the academic proposals submitted by individual departments to the principal for further processing.
@@ -8,7 +11,7 @@ Internal Quality Assurance Cell(IQAC) is the premier body of the college, having
 
 | # | Name | Contact Number
 | --- | --- | --- |
-| 1 | Indusalini G (Chairperson, Principal in-charge) | 9388011160
+| 1 | Dr. Vijayakumar Narayanan (Chairperson, Principal) | 9388011160
 | 2 | Smt.Mini K P(Sr. Administrative) | 8281556762
 | 3 | Smt. Anu Antony(Co-ordinator) | 9447930157
 | 4 | Smt. Drishya S S | 9447324434

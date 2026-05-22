@@ -1,5 +1,8 @@
-Career Guidance and Placement Unit
-
+---
+title: Career Guidance and Placement Unit
+description: ''
+lastUpdated: '2024-08-04'
+---
 The Career Guidance & Placement Unit (CGPU) of the college is working as a team under the leadership of the Coordinator, the Committee Members of each Department and a batch of dedicated students. The students of the college are getting regular placements in many multinational companies like TCS, IBM, INFOSYS, UST GLOBAL, WIPRO, IBS, SPERIDIAN, CTS etc.
 
 The CGPU sends the College brochure to the selected companies inviting them for Campus Recruitment. The Companies may inform the CGPU, the details of their requirement for recruitment. The Unit will provide all necessary facilities required for briefing, pre-placement talks, conducting written tests, group discussions and interview.
@@ -16,7 +19,6 @@ Mob : +91 9447930157
   
 
 ## Details of some of the placed students
-<div class="md-table-wraper" markdown="block">
 
 | Sl.No. | Name of Student | Department | Company | Period of Placement |
 | --- | --- | --- | --- | --- |
@@ -377,6 +379,10 @@ Mob : +91 9447930157
 | 347 | Vignesh M | Department of Computer Science & Engineering | EY  | 2015 - 2016 |
 | 348 | Vipin P R | Department of Computer Science & Engineering | Allianz Technology | 2015 - 2016 |
 |     |     |     |     |     |
+<<<<<<< HEAD
 | 349 | VISHNUPRIYA L | Department of Information Technology |     |     |
 
 </div>
+=======
+| 331 | VISHNUPRIYA L | Department of Information Technology |     |     |
+>>>>>>> b1ca5252a4c4970703f41ff702206b88fdcff631

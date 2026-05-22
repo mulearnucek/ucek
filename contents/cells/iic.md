@@ -1,5 +1,8 @@
-Institution Innovation Council
-
+---
+title: Institution Innovation Council
+description: ''
+lastUpdated: '2024-08-05'
+---
 Ministry of Human Resource Development (MHRD), Govt. of India has established 'MHRD's Innovation Cell (MIC)' to systematically foster the culture of Innovation amongst all Higher Education Institutions (HEIs). The primary mandate of MIC is to encourage, inspire and nurture young students by supporting them to work with new ideas and transform them into prototypes.
 
 ## MEMBERS

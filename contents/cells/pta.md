@@ -1,5 +1,8 @@
-Parent Teacher Association
-
+---
+title: Parent Teacher Association
+description: ''
+lastUpdated: '2024-08-04'
+---
 The Parent Teacher Association (PTA) is a private organization of the parent of all students of the University College of Engineering, Kariavattam and the teaching faculties. It’s a very active organization working in the college to provide a common forum for interaction of parents and teachers so as to improve the facilities and infrastructure for academic excellence. The objective includes the development, improvement and promotion of the University College of Engineering, Kerala. It also provides special and essential services to the students. .
 
   
@@ -9,11 +12,10 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
   
 
 ## **PTA Executive Committee Members 2025-2026**
-<div class="md-table-wraper" markdown="block">
 
 | Executive Members | Designation | Contact Number |
 | --- | --- | --- |
-| Indusalini G (PTA President) | Principal in-charge | 9388011160 |
+| Dr. Vijayakumar Narayanan (PTA President) | Principal | 9388011160 |
 | Beena Thomas (Vice President) | Executive Member S8 CSE | 9562185600 |
 | Sabeena A.S (PTA Secretary) | Asst Professor Dept of Information Technology | 9946559271 |
 | Dr. Jayakumar M (Joint Secretary) | Executive Member S8 IT | 8129485779 |
@@ -36,8 +38,6 @@ The functioning of PTA is based on the draft bye-law formulated by the Universit
 | Divya D T | HOD CSE | 9656468540 |
 | Bhanu S Nair | HOD General Department | 9895911465 |
 | Rohini P S (Staff Representative) | AP in ECE | 8129602033 |
-
-</div>
 
   
 

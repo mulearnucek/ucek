@@ -1,4 +1,8 @@
-Office
+---
+title: Office
+description: ''
+lastUpdated: '2024-08-16'
+---
 The Administrative Office of University College of Engineering works under the direct supervision of Kerala university and consists of Assistant Registrar, Administrative Officer and a Senior Grade Assistant. All matters related to staff and students of the college are processed and maintained here.
 
 ## Office Timings

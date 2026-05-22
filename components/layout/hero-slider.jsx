@@ -53,7 +53,7 @@ export function HeroSlider() {
           }),
         ]}
       >
-        <div className="flex absolute bottom-14 z-10 w-full items-center justify-center gap-2">
+        <div className="flex absolute bottom-8 md:bottom-14 z-10 w-full items-center justify-center gap-2">
           {Array(images.length + 1)
             .fill(0)
             .map((_, index) => (
@@ -74,7 +74,7 @@ export function HeroSlider() {
                 width={1920}
                 height={1080}
                 alt="University College of Engineering Kariavattom"
-                className="h-[656px] w-full object-cover"
+                className="h-[350px] md:h-[656px] w-full object-cover"
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.1)]">
                 <div className="space-y-2 text-center text-primary-foreground">
@@ -94,7 +94,7 @@ export function HeroSlider() {
                   width={1920}
                   height={1080}
                   alt={image[1]}
-                  className="h-[656px] w-full object-cover"
+                  className="h-[350px] md:h-[656px] w-full object-cover"
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center space-y-4 bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.1)]">
                   <div className="space-y-2 text-center text-primary-foreground">

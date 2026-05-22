@@ -1,6 +1,8 @@
-SCHOLARSHIP DETAILS
-
-
+---
+title: SCHOLARSHIP DETAILS
+description: ''
+lastUpdated: '2025-05-08'
+---
 <p>The students belonging to SC/ST/OEC and SEBC category are eligible for fee concession/stipend/lump sum grant etc. as per the norms stipulated by the Govt. of Kerala. </p>
 <table border="1">
 <tr><td><h2>Sl No.</h2></td> <td><h2>Scholarship</h2></td><td><h2>Website</h2></td></tr>

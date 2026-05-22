@@ -1,5 +1,8 @@
-Department of Electronics & Communication Engineering
-
+---
+title: Department of Electronics & Communication Engineering
+description: ''
+lastUpdated: '2024-08-26'
+---
 <p>Electronics and Communication Engineering is an engineering discipline providing the knowledge on theoretical and practical aspects of different areas in Electronics &amp; Communication Engineering.</p>
 
 <p>The department has an intake of 60 students per year in four year undergraduate course. The department consists of highly qualified, dedicated and experienced faculty members who possess extreme passion for teaching, aim at educating and training students with sound knowledge and awareness in the latest trend in electronics, communication and information technology.</p>

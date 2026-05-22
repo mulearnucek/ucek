@@ -1,5 +1,8 @@
-FOSS Club
-
+---
+title: FOSS Club
+description: ''
+lastUpdated: '2026-05-07'
+---
 ### <span style="color: black; font-weight: 600;text-align: center; display:block;">Empowering Students Through Open Source</span>
 
 <div style="background: #f5f9f5; display:flex; padding: 20px;flex-direction:column; border-radius: 8px; margin: 20px 0;  align-items:center;">
@@ -10,14 +13,14 @@ The primary objective of the FOSS Club is to foster a robust technological found
 
 
 
-<a href="https://fossucek.tech/" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
+<a href="https://foss.uck.ac.in" style="text-decoration: none; font-family: sans-serif; margin:2rem 0 1rem 0;">
   <span style="display: inline-flex; height: 28px; overflow: hidden; font-size: 13px; font-weight: bold; text-transform: uppercase;">
     <span style="background-color: #4b4b4b; color: white; display: flex; align-items: center; padding: 0 12px; font-weight:500;">
     <img src='/logos/foss-modified.png' alt="FOSS Logo" style="height: 30px; margin-right: 8px; filter: brightness(0) invert(1);" />
       Visit
     </span>
     <span style="background-color: purple; color: white; display: flex; align-items: center; padding: 0 14px; font-weight:700;">
-      fossucek.tech
+      foss.uck.ac.in
     </span>
   </span>
 </a>

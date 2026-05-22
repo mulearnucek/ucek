@@ -1,5 +1,8 @@
-Ethics Committee
-
+---
+title: Ethics Committee
+description: ''
+lastUpdated: '2024-08-04'
+---
 Our ethics policy warrants ability to discern right from wrong, good from evil, and the commitment to do what is right, good and proper for each individual within the College.
 
 ## The Institutional Ethics Committee consists of following members

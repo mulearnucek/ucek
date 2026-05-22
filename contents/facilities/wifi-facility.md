@@ -1,7 +1,9 @@
-CENTRAL Wi-Fi FACILITY
-
-
-  <div style="font-size: 17px;">
+---
+title: CENTRAL Wi-Fi FACILITY
+description: ''
+lastUpdated: '2025-05-08'
+---
+<div style="font-size: 17px;">
     <p>
       The Central Wi-Fi Facility at UCEK provides secure, high-speed internet access across the campus, including classrooms, libraries, and common areas. It supports the academic, research, and administrative needs of students and staff, ensuring reliable connectivity through authorized login credentials.
     </p>

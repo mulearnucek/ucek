@@ -1,5 +1,8 @@
-Memorandum of Understanding (MoU) Cell
-
+---
+title: Memorandum of Understanding (MoU) Cell
+description: ''
+lastUpdated: '2024-08-07'
+---
 A Memorandum of Understanding (MoU) is a formal agreement between two or more parties. Companies and organizations can use MoUs to establish official partnerships. The MoUs have been signed between University College of Engineering Kariavattom(UCEK) and various companies with the sole aim of giving training and placement to the students.
 
 #### Purpose of MoU
@@ -36,4 +39,3 @@ MoU Cell comprising of the following staff members:
 | Minu J Mohan | Asst. Professor | Computer Science & Engineering |
 | Vidhya S | Asst. Professor | Electronics & Communication Engineering |
 | Krishna J S | Asst. Professor | Information Technology |
-

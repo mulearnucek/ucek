@@ -4,7 +4,7 @@
 <br/>
 <table border="1" style="width:500px">
 <tr><th>Sl. no</th><th>Committee Members</th><th>Department</th></tr>
-<tr><td>1 </td><td>Indusalini G – Hackathon Coordinator </td><td>ECE</td></tr>
+<tr><td>1 </td><td>Dr. Vijayakumar Narayanan – Hackathon Coordinator </td><td>ECE</td></tr>
 <tr><td>2</td><td>Haseena Beegum S</td><td>ECE</td></tr>
 <tr><td>3</td><td>Vidhya S</td><td>ECE</td></tr>
 <tr><td>4</td><td>Gargy G</td><td>CSE</td></tr>
