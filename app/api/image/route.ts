@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, { cache: 'no-store' }); // ← fix 1
     if (!response.ok) {
       return new NextResponse(`Error fetching image: ${response.statusText}`, { status: response.status });
     }
@@ -20,12 +20,9 @@ export async function GET(req: NextRequest) {
       headers.set('Content-Type', contentType);
     }
     
-    headers.set('Cache-Control', 'public, max-age=31536000, immutable');
+    headers.set('Cache-Control', 'private, max-age=3600');
 
-    return new NextResponse(response.body, {
-      status: 200,
-      headers,
-    });
+    return new NextResponse(response.body, { status: 200, headers });
   } catch (error) {
     console.error('Error proxying image:', error);
     return new NextResponse('Internal Server Error', { status: 500 });
