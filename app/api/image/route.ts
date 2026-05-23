@@ -19,7 +19,7 @@ export async function GET(req: NextRequest) {
     if (contentType) {
       headers.set('Content-Type', contentType);
     }
-    headers.set('Cache-Control', 'public, max-age=31536000');
+    headers.set('Cache-Control', 'private, max-age=31536000');
 
     return new NextResponse(response.body, {
       status: 200,
